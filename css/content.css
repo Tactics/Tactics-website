@@ -24,3 +24,28 @@ article h2
   line-height: 50px;
   font-weight: 800;
 }
+
+.header_content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.95);
+    z-index: 10000;
+    padding: 14px 0 20px;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.header_central{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.header_central h2 a {
+    background: url('/images/logo.png') 0 0 no-repeat;
+    background-size: 237px 80px;
+    width: 237px;
+    height: 80px;
+    display: block;
+}
