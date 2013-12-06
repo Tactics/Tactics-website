@@ -1,0 +1,26 @@
+h1
+{
+  font-size: 3.75em;
+  color: #493e45;
+  display: block;
+  letter-spacing: -0.01em;
+  width: 100%;
+}
+
+article
+{
+  line-height: 1.625em;
+  letter-spacing: 0.02em;
+  margin-top: 30px;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-shadow: 0 1px 0px #fff;
+  font-size: 1.1em;
+}
+
+article h2
+{
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 800;
+}
