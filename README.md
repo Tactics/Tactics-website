@@ -1,4 +1,0 @@
-Tactics-website
-===============
-
-Tactics website
