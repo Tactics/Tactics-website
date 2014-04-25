@@ -124,7 +124,7 @@
       <div class="container">
         <div class="row margin-40">
           <div class="col-md-10 col-md-offset-1 text-center">
-            <p>Kerkstraat 115, 2940 Hoevenen | <i class="fa fa-phone-square"></i> +32 3 665 25 22 | fax +32 3 665 33 29  |  <a href="mailto:info@tactics.com"><i class="fa fa-envelope-o"></i> info@tactics.com</a></p>
+            <p>Kerkstraat 115, 2940 Hoevenen | <i class="fa fa-phone-square"></i> +32 3 665 25 22 | fax +32 3 665 33 29  |  <a href="mailto:info@tactics.com"><i class="fa fa-envelope-o"></i> info@tactics.be</a></p>
             <hr>
           </div>
         </div>
