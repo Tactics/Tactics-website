@@ -536,10 +536,9 @@ li.sign-up:hover {
   padding: 60px 0px 80px 0px;
   color: #ffffff;
   background-position: center bottom;
-  min-height: 380px;
+  min-height: 400px;
   max-height: 380px;
 }
-
 
 .home-box:hover {
   background: url("../img/arrow.png") no-repeat scroll center bottom #ec971f;
@@ -650,6 +649,16 @@ li.sign-up:hover {
   padding-bottom: 80px;
 }
 
+a.container-link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a.container-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 #team {
   background: url("../img/team-bg.jpg") no-repeat scroll center center #ffffff;
   padding-top: 80px;
@@ -727,6 +736,16 @@ li.sign-up:hover {
   background: #ffffff;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+a.content-link {
+  color: #df8505;
+  text-decoration: underline;
+}
+
+a.content-link:hover {
+  color: #ec971f;
+  text-decoration: none;
 }
 
 .nav-tabs {
@@ -1026,8 +1045,8 @@ ul.portfolio li {
    ========================================================================== */
 #message {
   background: #E4E9EA;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 
