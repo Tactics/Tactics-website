@@ -651,7 +651,7 @@ li.sign-up:hover {
 
 a.container-link {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a.container-link:hover {
