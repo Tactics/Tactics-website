@@ -91,6 +91,16 @@
       
       <div class="row">
         <div class="col-md-8">
+          <?php
+          if(isset($_GET['e']))
+          {
+            echo '<p class="error">' . $_GET['e'] . '</p>';
+          }
+          if(isset($_GET['s']))
+          {
+            echo '<p class="success">' . $_GET['s'] . '</p>';
+          }
+          ?>
           <form method="POST" action="contact-form-submission.php">
             <input type="text" class="col-xs-12" name="contact_name" placeholder="Naam">
             <input type="text" class="col-xs-12" name="contact_email" placeholder="Email">
@@ -124,7 +134,7 @@
       <div class="container">
         <div class="row margin-40">
           <div class="col-md-10 col-md-offset-1 text-center">
-            <p>Kerkstraat 115, 2940 Hoevenen | <i class="fa fa-phone-square"></i> +32 3 665 25 22 | fax +32 3 665 33 29  |  <a href="mailto:info@tactics.com"><i class="fa fa-envelope-o"></i> info@tactics.be</a></p>
+            <p>Kerkstraat 115, 2940 Hoevenen | <i class="fa fa-phone-square"></i> +32 3 665 25 22 | fax +32 3 665 33 29  |  <a href="mailto:info@tactics.be"><i class="fa fa-envelope-o"></i> info@tactics.be</a></p>
             <hr>
           </div>
         </div>
@@ -143,12 +153,12 @@
 
       </div>
     </section>
-    
+
     <section id="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <p>@ Copyright. All Rights Reserved. Created by <a href="http://www.themearmada.com">Theme Armada.</a></p>
+            <p>Tactics bvba</p>
           </div>
         </div>
       </div>
@@ -172,6 +182,18 @@
 
     <script src="js/classie.js"></script>
     <script src="js/cbpanimatedheader-min.js"></script>
-   
+
+<style>
+ .error
+ {
+   font-weight:bold;
+   color:#931a1a;
+ }
+ .success
+ {
+   font-weight:bold;
+   color:#206a0f;
+ }
+</style>
     </body>
 </html>
