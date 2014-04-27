@@ -48,7 +48,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="index.html">Wat doen we</a></li>
             <!--<li class="dropdown">-->
             <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>-->
             <!--<ul class="dropdown-menu">-->
@@ -62,8 +62,8 @@
             <!--</li>-->
             <li><a href="about.html">Wie zijn we</a></li>
             <li><a href="projecten.html">Projecten</a></li>
-            <li><a href="#">Case studies</a></li>
-            <li class="active"><a href="contact.php">Contacteer ons</a></li>
+            <li><a href="casestudies.html">Case studies</a></li>
+            <li><a href="contact.php">Contacteer ons</a></li>
             <!--<li class="sign-up"><a href="signup.html"><span class="white"> Sign Up</span></a></li>-->
           </ul>
         </div><!--/.navbar-collapse -->
