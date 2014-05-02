@@ -14,17 +14,19 @@
    ========================================================================== */
 
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
 }
-
 h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Open Sans',sans-serif;
 }
-
 h1 {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -3px;
-  font-weight: bold;
   color: #ffffff;
 }
 
@@ -40,7 +42,6 @@ h3 {
   font-size: 29px;
   line-height: 35px;
   letter-spacing: -2px;
-  font-weight: bold;
   color: #ffffff;
 }
 
@@ -661,7 +662,7 @@ a.container-link:hover {
 
 #team {
   background: url("../img/team-bg.jpg") no-repeat scroll center center #ffffff;
-  padding-top: 80px;
+  padding-top: 30px;
   padding-bottom: 0px;
   background-size: cover;
 }
@@ -734,8 +735,8 @@ a.container-link:hover {
 
 #content {
   background: #ffffff;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 a.content-link {
