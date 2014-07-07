@@ -1,39 +1,9 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <title>Tactics bvba | Sportdienst</title>
-  <meta name="keywords" content="flat bootstrap, bootstrap themes, creative responsive websites, illustration bootstrap design, blue responsive themes, mobile menu website">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  
-  <meta property="og:title" content="Sharkfin | Designed By Theme Armada">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://www.themearmada.com/demos/sharkfin">
-	<meta property="og:site_name" content="Theme Armada">
-	<meta property="og:description" content="flat bootstrap, bootstrap themes, creative responsive websites, illustration bootstrap design, blue responsive themes, mobile menu website">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-  
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/custom-styles.css">
-
-  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
-  <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="favicon.ico">
-  
-  
-</head>
-
+<html lang="en">
+    <?php
+        $PageTitle="Tactics bvba | Kinderopvang Leuven";
+        include('header.php');
+    ?>
 <body>
 
 <div class="cbp-af-header">
@@ -46,25 +16,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+          <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Logo"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Wat doen we</a></li>
+            <li><a href="index.php">Wat doen we</a></li>
             <!--<li class="dropdown">-->
             <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>-->
             <!--<ul class="dropdown-menu">-->
             <!--<li><a href="full-width.html">Full Width</a></li>-->
-            <!--<li><a href="about.html">About</a></li>-->
+            <!--<li><a href="about.php">About</a></li>-->
             <!--<li><a href="services.html">Services</a></li>-->
             <!--<li><a href="blog-article.html">Blog Article</a></li>-->
             <!--<li><a href="login.html">Log In</a></li>-->
             <!--<li><a href="signup.html">Sign Up</a></li>-->
             <!--</ul>-->
             <!--</li>-->
-            <li><a href="about.html">Wie zijn we</a></li>
-            <li class="active"><a href="projecten.html">Projecten</a></li>
-            <li><a href="casestudies.html">Case studies</a></li>
+            <li><a href="about.php">Wie zijn we</a></li>
+            <li class="active"><a href="projecten.php">Projecten</a></li>
+            <li><a href="casestudies.php">Case studies</a></li>
             <li><a href="contact.php">Contacteer ons</a></li>
             <!--<li class="sign-up"><a href="signup.html"><span class="white"> Sign Up</span></a></li>-->
           </ul>
@@ -79,7 +49,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 title-orange">
-          <h2>Sportdienst stad Antwerpen</h2>
+          <h2>Kinderopvang stad Leuven</h2>
         </div>
       </div>
     </div>
@@ -93,16 +63,16 @@
         
         <div class="col-md-10 margin-10">
           <p class="lead">Info</p>
-          <p class="white">Op vraag van de sportdienst van de Stad Antwerpen,
-            die de stedelijk sportinfrastructuur beheert, implementeerden we een pakket voor verhuur van accommodatie en materialen.
+          <p class="white">Voor het proefproject Centraal Loket Kinderopvang (CKO) van de Stad Leuven ontwikkelden we centraal aanmeldingsregister
+            voor alle opvangvragen voor voorschoolse en buitenschoolse opvang als ook opvang van zieke kinderen.
             <br /><br />
-            De toepassing voorziet in een uitgebreid systeem om de jaarlijkse vaste beschikkingen te beheren en eenvoudig jaar na jaar te herbekijken.
-            Daarnaast zijn er natuurlijk diverse kalenderoverzichten met drag en drop interface, stockbeheer, registratiesystemen voor de zaalwachters,
-            complexe tariefstructuren, online reservaties en beschikbaarheidsoverzichten en meer.
+            Alle deelnemende verblijven (alle verblijven binnen de stadsgrenzen) krijgen toegang tot hun deel van de wachtlijst
+            en kunnen via een uitgebreide planningsmodule opvangvragen beantwoorden.
             <br /><br />
-            Qua integratie werd er onder meer een koppeling met de stedelijke facturatiesystemen (SAP) en personenregister (CRS) voorzien.
-            Ook werd het systeem voorzien op koppeling met toegangscontrole voor een volledig automatisch beheerde sporthal.
-
+            Na inschrijving van een kind kan ook de volledige dossieropvolging via het systeem gebeuren (t/m registratie en facturatie).
+            Deze dienst wordt gratis aan alle deelnemende verblijven aangeboden.
+            <br /><br />
+            Layout en design was aangeleverd door stad Leuven zelf.
           </p>
           <!--<p class="lead">Creative</p>-->
           <!--<p class="white">Lorem ipsum, dolor, sit amet, consectetur </p>-->
@@ -142,7 +112,7 @@
           </div>
           <div class="col-md-8">
             <p>Ga naar het project via volgende url:</p>
-            <p><a class="content-link" href="http://www.sportstad.be" target="_blank">sportstad.be</a></p>
+            <p><a class="content-link" href="http://www.kinderopvangleuven.be/" target="_blank">kinderopvangleuven.be</a></p>
           </div>
         </div>
         <!--<div class="span12">-->
@@ -210,7 +180,6 @@
         </div>
     </div>
 </section>
-
     
     <!-- Javascript
     ================================================== -->

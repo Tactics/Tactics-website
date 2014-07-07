@@ -1,37 +1,11 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <title>Tactics bvba | Projecten</title>
-  <meta name="keywords" content="flat bootstrap, bootstrap themes, creative responsive websites, illustration bootstrap design, blue responsive themes, mobile menu website">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  
-  <meta property="og:title" content="Sharkfin | Designed By Theme Armada">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://www.themearmada.com/demos/sharkfin">
-	<meta property="og:site_name" content="Theme Armada">
-	<meta property="og:description" content="flat bootstrap, bootstrap themes, creative responsive websites, illustration bootstrap design, blue responsive themes, mobile menu website">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-  
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/custom-styles.css">
-
-  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
-  <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="favicon.ico">
+<html lang="en">
+<head>
+    <?php
+    $PageTitle="Tactics bvba | Projecten";
+    include('header.php');
+    ?>
 </head>
-
 <body>
 
 <div class="cbp-af-header">
@@ -44,25 +18,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+          <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Logo"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Wat doen we</a></li>
+            <li><a href="index.php">Wat doen we</a></li>
             <!--<li class="dropdown">-->
             <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>-->
             <!--<ul class="dropdown-menu">-->
             <!--<li><a href="full-width.html">Full Width</a></li>-->
-            <!--<li><a href="about.html">About</a></li>-->
+            <!--<li><a href="about.php">About</a></li>-->
             <!--<li><a href="services.html">Services</a></li>-->
             <!--<li><a href="blog-article.html">Blog Article</a></li>-->
             <!--<li><a href="login.html">Log In</a></li>-->
             <!--<li><a href="signup.html">Sign Up</a></li>-->
             <!--</ul>-->
             <!--</li>-->
-            <li><a href="about.html">Wie zijn we</a></li>
-            <li class="active"><a href="projecten.html">Projecten</a></li>
-            <li><a href="casestudies.html">Case studies</a></li>
+            <li><a href="about.php">Wie zijn we</a></li>
+            <li class="active"><a href="projecten.php">Projecten</a></li>
+            <li><a href="casestudies.php">Case studies</a></li>
             <li><a href="contact.php">Contacteer ons</a></li>
             <!--<li class="sign-up"><a href="signup.html"><span class="white"> Sign Up</span></a></li>-->
           </ul>
@@ -105,7 +79,7 @@
                 <li>
                     <div class="thumbs">
                         <img src="img/pringles_color.gif" class="img-responsive" alt="Image Size 430x280">
-                        <a href="portfolio-pringles.html">
+                        <a href="portfolio-pringles.php">
           				<span class="title">
           					<span><i class="fa fa-link fa-2x"></i></span>
           				</span>
@@ -119,7 +93,7 @@
                 <li>
                     <div class="thumbs">
                         <img src="img/kinderopvangbrussel.gif" class="img-responsive" alt="Image Size 430x280">
-                        <a href="portfolio-kinderopvangbrussel.html">
+                        <a href="portfolio-kinderopvangbrussel.php">
           				<span class="title">
           					<span><i class="fa fa-link fa-2x"></i></span>
           				</span>
@@ -133,7 +107,7 @@
                 <li>
                     <div class="thumbs">
                         <img src="img/kinderopvangoostende.gif" class="img-responsive" alt="Image Size 430x280">
-                        <a href="portfolio-kinderopvangoostende.html">
+                        <a href="portfolio-kinderopvangoostende.php">
           				<span class="title">
           					<span><i class="fa fa-link fa-2x"></i></span>
           				</span>
@@ -155,7 +129,7 @@
         		<li>
         			<div class="thumbs">
           			<img src="img/portfolio1.gif" class="img-responsive" alt="Image Size 430x280">
-          			<a href="portfolio-csj.html">
+          			<a href="portfolio-csj.php">
           				<span class="title">
           					<span><i class="fa fa-link fa-2x"></i></span>
           				</span>
@@ -171,7 +145,7 @@
         		<li>
         			<div class="thumbs">
           			<img src="img/portfolio2.gif" class="img-responsive" alt="Image Size 430x280">
-          			<a href="portfolio-sportdienst.html">
+          			<a href="portfolio-sportdienst.php">
           				<span class="title">
           					<span><i class="fa fa-link fa-2x"></i></span>
           				</span>
@@ -190,7 +164,7 @@
             <li>
               <div class="thumbs">
                 <img src="img/portfolio5.gif" class="img-responsive" alt="Image Size 430x280">
-                <a href="portfolio-leuven.html">
+                <a href="portfolio-leuven.php">
           				<span class="title">
           					<span><i class="fa fa-link fa-2x"></i></span>
           				</span>
@@ -205,7 +179,7 @@
               <li>
                   <div class="thumbs">
                       <img src="img/kinderopvangantwerpen.gif" class="img-responsive" alt="Image Size 430x280">
-                      <a href="portfolio-kinderopvangantwerpen.html">
+                      <a href="portfolio-kinderopvangantwerpen.php">
           				<span class="title">
           					<span><i class="fa fa-link fa-2x"></i></span>
           				</span>
@@ -220,7 +194,7 @@
               <li>
                   <div class="thumbs">
                       <img src="img/kinderopvanggent.gif" class="img-responsive" alt="Image Size 430x280">
-                      <a href="portfolio-kinderopvanggent.html">
+                      <a href="portfolio-kinderopvanggent.php">
           				<span class="title">
           					<span><i class="fa fa-link fa-2x"></i></span>
           				</span>
@@ -235,7 +209,7 @@
               <li>
                   <div class="thumbs">
                       <img src="img/portfolio3.gif" class="img-responsive" alt="Image Size 430x280">
-                      <a href="portfolio-kdv-kavka-jespo.html">
+                      <a href="portfolio-kdv-kavka-jespo.php">
           				<span class="title">
           					<span><i class="fa fa-link fa-2x"></i></span>
           				</span>
@@ -250,7 +224,7 @@
               <li>
                   <div class="thumbs">
                       <img src="img/portfolio4.gif" class="img-responsive" alt="Image Size 430x280">
-                      <a href="portfolio-hivset.html">
+                      <a href="portfolio-hivset.php">
           				<span class="title">
           					<span><i class="fa fa-link fa-2x"></i></span>
           				</span>

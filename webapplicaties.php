@@ -1,37 +1,11 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <title>Tactics bvba | Webapplicaties</title>
-  <meta name="keywords" content="flat bootstrap, bootstrap themes, creative responsive websites, illustration bootstrap design, blue responsive themes, mobile menu website">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  
-  <meta property="og:title" content="Sharkfin | Designed By Theme Armada">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://www.themearmada.com/demos/sharkfin">
-	<meta property="og:site_name" content="Theme Armada">
-	<meta property="og:description" content="flat bootstrap, bootstrap themes, creative responsive websites, illustration bootstrap design, blue responsive themes, mobile menu website">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-  
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/custom-styles.css">
-
-  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
-  <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="favicon.ico">
+<html lang="en">
+<head>
+    <?php
+        $PageTitle="Tactics bvba | Webapplicaties";
+        include('header.php');
+    ?>
 </head>
-
 <body>
 
 <div class="cbp-af-header">
@@ -44,25 +18,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+          <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Logo"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Wat doen we</a></li>
+            <li><a href="index.php">Wat doen we</a></li>
             <!--<li class="dropdown">-->
             <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>-->
             <!--<ul class="dropdown-menu">-->
             <!--<li><a href="full-width.html">Full Width</a></li>-->
-            <!--<li><a href="about.html">About</a></li>-->
+            <!--<li><a href="about.php">About</a></li>-->
             <!--<li><a href="services.html">Services</a></li>-->
             <!--<li><a href="blog-article.html">Blog Article</a></li>-->
             <!--<li><a href="login.html">Log In</a></li>-->
             <!--<li><a href="signup.html">Sign Up</a></li>-->
             <!--</ul>-->
             <!--</li>-->
-            <li><a href="about.html">Wie zijn we</a></li>
-            <li class="active"><a href="projecten.html">Projecten</a></li>
-            <li><a href="casestudies.html">Case studies</a></li>
+            <li><a href="about.php">Wie zijn we</a></li>
+            <li class="active"><a href="projecten.php">Projecten</a></li>
+            <li><a href="casestudies.php">Case studies</a></li>
             <li><a href="contact.php">Contacteer ons</a></li>
             <!--<li class="sign-up"><a href="signup.html"><span class="white"> Sign Up</span></a></li>-->
           </ul>
@@ -99,7 +73,7 @@
           <div class="col-md-8">
             <p class="gray">Ons werk vangt aan met luisteren. Naar u. Want úw wensen zijn bepalend voor de opzet van uw webapplicatie.
               Zo is ze helemaal toegespitst op uw bedrijfsvoering. Tijdens het voortraject maken we een inventaris op van de bedrijfsprocessen
-              die in aanmerking komen: financieel, administratief, commercieel, logistiek, … de lijst is lang. Net als die met <a class="content-link" href="projecten.html">gerealiseerde projecten</a>.
+              die in aanmerking komen: financieel, administratief, commercieel, logistiek, … de lijst is lang. Net als die met <a class="content-link" href="projecten.php">gerealiseerde projecten</a>.
             </p>
           </div>
         </div><!--End Row-->
@@ -142,7 +116,7 @@
             </ul>
             <p class="gray">Bovendien bouwen we uw webapplicaties zonder dure externe componenten. Uw winst? U gebruikt ze voor onbepaalde duur,
               past ze vrij aan en laat ze eventueel door derden beheren. Al betwijfelen we of u van die mogelijkheid gebruikmaakt –
-              tenslotte zit u nérgens beter dan bij Tactics. Net als deze <a href="projecten.html" class="content-link">klanten</a>.
+              tenslotte zit u nérgens beter dan bij Tactics. Net als deze <a href="projecten.php" class="content-link">klanten</a>.
             </p>
           </div>
         </div><!--End Row-->

@@ -1,39 +1,11 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <title>Tactics bvba | Pringles</title>
-  <meta name="keywords" content="flat bootstrap, bootstrap themes, creative responsive websites, illustration bootstrap design, blue responsive themes, mobile menu website">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-  
-  <meta property="og:title" content="Sharkfin | Designed By Theme Armada">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://www.themearmada.com/demos/sharkfin">
-	<meta property="og:site_name" content="Theme Armada">
-	<meta property="og:description" content="flat bootstrap, bootstrap themes, creative responsive websites, illustration bootstrap design, blue responsive themes, mobile menu website">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-  
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/custom-styles.css">
-
-  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
-  <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="favicon.ico">
-  
-  
+<html lang="en">
+<head>
+    <?php
+    $PageTitle="Tactics bvba | Kinderopvang Oostende";
+    include('header.php');
+    ?>
 </head>
-
 <body>
 
 <div class="cbp-af-header">
@@ -46,25 +18,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+          <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Logo"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Wat doen we</a></li>
+            <li><a href="index.php">Wat doen we</a></li>
             <!--<li class="dropdown">-->
             <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>-->
             <!--<ul class="dropdown-menu">-->
             <!--<li><a href="full-width.html">Full Width</a></li>-->
-            <!--<li><a href="about.html">About</a></li>-->
+            <!--<li><a href="about.php">About</a></li>-->
             <!--<li><a href="services.html">Services</a></li>-->
             <!--<li><a href="blog-article.html">Blog Article</a></li>-->
             <!--<li><a href="login.html">Log In</a></li>-->
             <!--<li><a href="signup.html">Sign Up</a></li>-->
             <!--</ul>-->
             <!--</li>-->
-            <li><a href="about.html">Wie zijn we</a></li>
-            <li class="active"><a href="projecten.html">Projecten</a></li>
-            <li><a href="casestudies.html">Case studies</a></li>
+            <li><a href="about.php">Wie zijn we</a></li>
+            <li class="active"><a href="projecten.php">Projecten</a></li>
+            <li><a href="casestudies.php">Case studies</a></li>
             <li><a href="contact.php">Contacteer ons</a></li>
             <!--<li class="sign-up"><a href="signup.html"><span class="white"> Sign Up</span></a></li>-->
           </ul>
@@ -79,7 +51,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 title-orange">
-          <h2>Pringles automasatie</h2>
+          <h2>Kinderopvang stad Oostende</h2>
         </div>
       </div>
     </div>
@@ -93,7 +65,22 @@
         
         <div class="col-md-10 margin-10">
           <p class="lead">Info</p>
-          <p class="white">In ontwikkeling</p>
+          <p class="white">
+
+              Voor de stad Oostende ontwikkelden we een centraal aanmeldingsregister voor alle opvangvragen voor voorschoolse opvang.<br/>
+              <br/>
+              Een aantal modules die werden voorzien ter ondersteuning van deze dienst:<br/>
+            <ul>
+                <li>Aanmeldplatform</li>
+                <li>Planningsysteem</li>
+                <li>Aanwezighedenregistratie</li>
+                <li>Facturatie</li>
+                <li>Communicatie</li>
+            </ul>
+
+          </p>
+          <!--<p class="lead">Creative</p>-->
+          <!--<p class="white">Lorem ipsum, dolor, sit amet, consectetur </p>-->
         </div>
         
         <!--<div class="col-md-3">-->
@@ -124,12 +111,34 @@
     <div class="container">
       <div class="row">
 
-
+        <div class="col-md-10">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2 class="dark-gray">Links</h2>
+          </div>
+            <div class="col-md-8">
+                <p>Nog geen publieke link beschikbaar.</p>
+            </div>
+        </div>
+        <!--<div class="span12">-->
+          <!--<div id="myCarousel" class="carousel slide">-->
+          <!---->
+          <!--&lt;!&ndash; Carousel items &ndash;&gt;-->
+          <!--<div class="carousel-inner">-->
+            <!--<div class="active item"><img src="img/work1.jpg" class="img-responsive" alt="Title"></div>-->
+            <!--<div class="item"><img src="img/work2.jpg" class="img-responsive" alt="Title"></div>-->
+          <!--</div>-->
+          <!---->
+          <!--&lt;!&ndash; Carousel nav &ndash;&gt;-->
+          <!--<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>-->
+          <!--<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
+          <!--</div>-->
+        <!--</div>-->
+      
       </div>
     </div>
   </section>
-
-
+  
+  
   <!--&lt;!&ndash;Message&ndash;&gt;-->
   <!--<section id="message">-->
     <!--<div class="container">-->
@@ -175,6 +184,7 @@
         </div>
     </div>
 </section>
+
     
     <!-- Javascript
     ================================================== -->
