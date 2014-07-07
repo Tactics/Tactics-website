@@ -6,45 +6,10 @@
     include('header.php');
     ?>
 </head>
-<body>
-
-<div class="cbp-af-header">
-  <div class="cbp-af-inner">
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Logo"></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php">Wat doen we</a></li>
-            <!--<li class="dropdown">-->
-            <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>-->
-            <!--<ul class="dropdown-menu">-->
-            <!--<li><a href="full-width.html">Full Width</a></li>-->
-            <!--<li><a href="about.php">About</a></li>-->
-            <!--<li><a href="services.html">Services</a></li>-->
-            <!--<li><a href="blog-article.html">Blog Article</a></li>-->
-            <!--<li><a href="login.html">Log In</a></li>-->
-            <!--<li><a href="signup.html">Sign Up</a></li>-->
-            <!--</ul>-->
-            <!--</li>-->
-            <li><a href="about.php">Wie zijn we</a></li>
-            <li class="active"><a href="projecten.php">Projecten</a></li>
-            <li><a href="casestudies.php">Case studies</a></li>
-            <li><a href="contact.php">Contacteer ons</a></li>
-            <!--<li class="sign-up"><a href="signup.html"><span class="white"> Sign Up</span></a></li>-->
-          </ul>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
-  </div>
-</div>
+<body class="projecten">
+<?php
+include('menu.php');
+?>
 
   <!--Page Title-->
   <section id="page-title">
@@ -113,40 +78,10 @@
     <!--</div>-->
   <!--</section>-->
 
-  <!--Bottom Section-->
-  <section id="bottom">
-    <div class="container">
-      <div class="row margin-40">
-        <div class="col-md-10 col-md-offset-1 text-center">
-          <p>Kerkstraat 115, 2940 Hoevenen | <i class="fa fa-phone-square"></i> +32 3 665 25 22 | fax +32 3 665 33 29  |  <a href="mailto:info@tactics.be"><i class="fa fa-envelope-o"></i> info@tactics.be</a></p>
-          <hr>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 text-center">
-          <!--Social Icons-->
-          <ul class="social-icons">
-            <li><a class="twitter" href="https://twitter.com/TacticsBvba" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
-            <li><a class="facebook" href="https://www.facebook.com/tacticsbvba" target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>
-            <li><a class="linkedin" href="http://www.linkedin.com/profile/view?id=6133370&locale=en_US&trk=tyah&trkInfo=tas%3Atac%2Cidx%3A2-1-2" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
-            <li><a class="Github" href="https://github.com/Tactics" target="_blank"><i class="fa fa-github-alt fa-3x"></i></a></li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-<section id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <p>Tactics bvba</p>
-            </div>
-        </div>
-    </div>
-</section>
+<!--Bottom Section-->
+<?php
+    include('footer.php');
+?>
     
     <!-- Javascript
     ================================================== -->
