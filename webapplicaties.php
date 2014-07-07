@@ -88,8 +88,8 @@
           <div class="col-md-8">
             <p class="gray">Webapplicaties van Tactics vereenvoudigen uw werk en dat van uw gebruikers – ongeacht hun browser,
               besturingssysteem en computerkennis. Hoe? Door overbodige en repetitieve handelingen te vermijden of te automatiseren.
-              Maar net zo goed omdat de applicaties zélf heel gebruiksvriendelijk zijn. Want we passen maximaal bekende navigatiesystemen en
-              vormgeving toe, waarmee bijna elke computergebruiker vertrouwd is. Het is niet omdat wij graag over bits en bytes praten, dat we van u hetzelfde verwachten.<br /><br />
+              En door maximaal gebruiksvriendelijke navigatiesystemen en vormgeving toe te passen, waarmee bijna elke computergebruiker vertrouwd is.
+              Het is niet omdat wij graag over bits en bytes praten, dat we van u hetzelfde verwachten.<br /><br />
               <a class="content-link" href="contact.php">Met ons van gedachten wisselen</a> – al dan niet in jargon? We kijken ernaar uit!
             </p>
           </div>
@@ -105,18 +105,18 @@
           <div class="col-md-8">
             <p class="gray">Een webapplicatie biedt legio voordelen:</p>
             <ul class="gray">
-              <li>Geen installatie</li>
+              <li>geen installatie</li>
               <li>platformonafhankelijk (pc, Apple, Linux, …)</li>
-              <li>overal toegankelijk mits een internetaansluiting
+              <li>overal toegankelijk mits een internetaansluiting</li>
               <li>altijd beschikbaar en up-to-date</li>
               <li>automatisch geback-upt</li>
-              <li>centraal beheerd</li>
+              <li>centraal beheerd vanuit &eacute;&eacute;n installatiepunt</li>
               <li>geen (dure) hard- en software</li>
               <li>goed beveiligde gegevens en toegang</li>
             </ul>
             <p class="gray">Bovendien bouwen we uw webapplicaties zonder dure externe componenten. Uw winst? U gebruikt ze voor onbepaalde duur,
-              past ze vrij aan en laat ze eventueel door derden beheren. Al betwijfelen we of u van die mogelijkheid gebruikmaakt –
-              tenslotte zit u nérgens beter dan bij Tactics. Net als deze <a href="projecten.php" class="content-link">klanten</a>.
+              met een onbeperkt aantal gebruikers, en laat ze eventueel door derden beheren. Al betwijfelen we of u van die mogelijkheid gebruikmaakt –
+              tenslotte zit u n&eacute;rgens beter dan bij Tactics. Net als deze <a href="projecten.php" class="content-link">klanten</a>.
             </p>
           </div>
         </div><!--End Row-->
@@ -129,11 +129,11 @@
 
         <div class="row margin-30">
           <div class="col-md-8">
-            <p class="gray">Tactics maakt gebruik van de nieuwste technologieën, zónder risico’s te nemen.
+            <p class="gray">Tactics maakt gebruik van de nieuwste technologie&eacute;n, z&oacute;nder risico’s te nemen.
               Dat betekent dat we alleen oplossingen hanteren die worden ondersteund of gebruikt door grote,
               erkende spelers op de markt. Zo krijgt u levensvatbare applicaties.
               We werken bovendien uitsluitend met open source-applicaties als
-              PHP, MySQL, PostgreSQL en Symfony. Die zijn betrouwbaar én licentievrij!
+              PHP, MySQL, PostgreSQL en <a class="container-link" href="http://symfony.com/" target="_blank">Symfony</a>. Die zijn betrouwbaar &eacute;n licentievrij!
             </p>
           </div>
         </div><!--End Row-->

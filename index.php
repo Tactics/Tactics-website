@@ -68,11 +68,12 @@
 
             <div class="col-sm-4 text-center home-box">
                 <i class="fa fa-desktop fa-3x"></i>
-                <a href="webapplicaties.html"><h3>Webapplicaties</h3></a>
+                <a href="webapplicaties.php"><h3>Applicaties</h3></a>
                 <p>
-                    Tactics ontwikkelt <a class="container-link" href="webapplicaties.html#maatwerk">passende webapplicaties</a> die uw bedrijfsactiviteiten <a class="container-link" href="webapplicaties.html#vereenvoudigen">vereenvoudigen</a> en stroomlijnen.
-                    En het takenpakket van uw gebruikers verlichten door functies te automatiseren. We benutten daarbij maximaal de <a class="container-link" href="webapplicaties.html#voordelen">voordelen en vrijheden</a> van het internet.
-                    En omarmen de <a class="container-link" href="webapplicaties.html#technologie">nieuwste technologie&euml;n</a>. Want als wij mee zijn, bent &ugrave; dat ook!<br />
+                    Tactics ontwikkelt <a class="container-link" href="webapplicaties.php#maatwerk">(web)applicaties op maat</a>, die uw bedrijfsactiviteiten <a class="container-link" href="webapplicaties.php#vereenvoudigen">vereenvoudigen</a> en stroomlijnen.
+                    En het takenpakket van uw gebruikers verlichten door functies te automatiseren.
+                    We benutten daarbij maximaal de <a class="container-link" href="webapplicaties.php#voordelen">voordelen en vrijheden</a> van het internet. En omarmen de <a class="container-link" href="webapplicaties.php#technologie">nieuwste technologie&euml;n</a>.
+                    Want als wij mee zijn, bent &ugrave; dat ook!<br />
                     <a class="container-link" href="contact.php">Waarmee zijn we &ugrave; van dienst?</a>
                 </p>
             </div>
@@ -80,18 +81,28 @@
             <!--Section 2-->
             <a>
                 <div class="col-sm-4 text-center home-box">
-                    <i class="fa fa-shopping-cart fa-3x"></i>
-                    <h3>Content Management &amp; Webshop</h3>
-                    <p>Binnenkort meer info.</p>
+                    <i class="fa fa-university fa-3x"></i>
+                    <a href="overheden.php"><h3>Lokale overheden</h3></a>
+                    <p>
+                        Bij uw dienstverlening aan de burger komt een berg administratie kijken - tijd die u beter spendeert aan uw service.
+                        Doe uw voordeel met de slimme webapplicaties van Tactics. Zo automatiseert u uw administratieve handelingen, werkt u
+                        effici&euml;nter en houdt u uw burgers up-to-date<br />
+                        <a class="container-link" href="overheden.php">Verbeter uw dienstverlening</a>
+                    </p>
                 </div>
             </a>
 
             <!--Section 3-->
             <a>
                 <div class="col-sm-4 text-center home-box">
-                    <i class="fa fa-bar-chart-o fa-3x"></i>
-                    <h3>Rapportage</h3>
-                    <p>Binnenkort meer info.</p>
+                    <i class="fa fa-shopping-cart fa-3x"></i>
+                    <a href="cms.php"><h3>Contentmanagementsystemen</h3></a>
+                    <p>
+                        Droomt u van een eigen webshop of een dynamische website die u gemakkelijk zélf beheert? Dan zet Tactics uw droom om in realiteit.
+                        Met flexibele en gebruiksvriendelijke contentmanagementsystemen (cms) die voldoen aan ál uw eisen.
+                        En waarmee u snel, veilig en eenvoudig uw aanwezigheid op het internet optimaliseert.<br />
+                        <a class="container-link" href="cms.php">Zet uw bedrijf op de digitale kaart</a>
+                    </p>
                 </div>
             </a>
 

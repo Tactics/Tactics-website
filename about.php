@@ -30,11 +30,11 @@
       <div class="row">
         
         <div class="col-md-10 margin-10">
-          <h3>Méér dan IT-knobbels</h3>
+          <h3>M&eacute;&eacute;r dan IT-knobbels</h3>
           <p class="white">
-            Als u denkt dat wij een stelletje wereldvreemde IT-nerds zijn, dan hebt u het mis. Oké, we ademen technologie door elke porie.
+            Als u denkt dat wij een stelletje wereldvreemde IT-nerds zijn, dan hebt u het mis. Ok&eacute;, we ademen technologie door elke porie.
             We spreken de digitale taal. En onze ogen fonkelen als u ons een analytisch vraagstuk voorschotelt. Maar bovenal zijn wij een bende enthousiaste,
-            met u meedenkende jongens, met maar één doel: webtechnologie naar uw hand zetten.<br />
+            met u meedenkende jongens, met maar &eacute;&eacute;n doel: webtechnologie naar uw hand zetten.<br />
             Hoe we dat doen? Met een flinke dosis programmeerkennis. Inzicht in de werking van uw bedrijfsprocessen.
             En een vleugje passie. Want onze briljante programmeurs kicken op elke uitdaging waarmee u ze confronteert.
             Ja, we sleutelen met plezier aan uw applicaties! En daarmee zijn we niet aan ons proefstuk toe. <a class='container-link' href="projecten.php">Check ons palmares</a>.
@@ -53,7 +53,7 @@
         </div>
 
         <div class="col-md-6 text-center">
-          <h2 class="dark-gray">Kleinschalig mét resultaatsgarantie</h2>
+          <h2 class="dark-gray">Kleinschalig m&eacute;t resultaatsgarantie</h2>
         </div>
       </div>
 
@@ -62,16 +62,17 @@
           <ol class="gray">
             <li>een flinke dosis programmeerkennis: <span class="orange">check</span></li>
             <li>een stevige scheut inzicht in uw bedrijfsprocessen: <span class="orange">glashelder</span></li>
-            <li>een portie techneutentools als Symfony : <span class="orange">onze speeltuin</span></li>
+            <li>een portie techneutentools als <a class="container-link" href="http://www.symfony.com/" target="_blank">Symfony</a>: <span class="orange">onze speeltuin</span></li>
             <li>een vleugje passie: <span class="orange">tot in onze botten</span></li>
           </ol><br />
+            <p>Toosten we binnenkort ook op uw succes? <a class="content-link" href="contact.php">Vertel ons over uw project</a></p>
         </div>
 
         <div class="col-md-6">
           <p class="gray">
             Weet u waarmee we ook het verschil maken in ons vakgebied? Kleinschaligheid.
-            Niet dat we ons als Calimero gedragen in een grote, boze wereld. Maar we zijn wél lean-and-mean.
-            Met negen hooggeschoolde, ervaren en perfect complementaire medewerkers.
+            Niet dat we ons als Calimero gedragen in een grote, boze wereld. Maar we zijn w&eacute;l lean-and-mean.
+            Met ervaren en perfect complementaire medewerkers.
             Die vlotjes op elkaar zijn ingespeeld. En wellicht ook op uw golflengte zitten. <a class='content-link' href="contact.php">Neem de proef op de som</a>.
           </p>
         </div>
