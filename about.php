@@ -47,37 +47,35 @@
 
   <section id="content">
     <div class="container">
-      <div class="row margin-30">
-        <div class="col-md-6 text-center">
-          <h2 class="dark-gray">Ons DNA</h2>
-        </div>
 
-        <div class="col-md-6 text-center">
-          <h2 class="dark-gray">Kleinschalig m&eacute;t resultaatsgarantie</h2>
-        </div>
-      </div>
+        <div class="row margin-0">
+            <div class="col-md-6 margin-50">
+                <div class="col-md-12 margin-20 text-center">
+                     <h2><span class="dark-gray">Ons DNA</span></h2>
+                </div>
+                <ol class="gray">
+                    <li>een flinke dosis programmeerkennis: <span class="orange">check</span></li>
+                    <li>een stevige scheut inzicht in uw bedrijfsprocessen: <span class="orange">glashelder</span></li>
+                    <li>een portie techneutentools als <a class="container-link" href="http://www.symfony.com/" target="_blank">Symfony</a>: <span class="orange">onze speeltuin</span></li>
+                    <li>een vleugje passie: <span class="orange">tot in onze botten</span></li>
+                </ol><br />
+                <p>Toosten we binnenkort ook op uw succes? <a class="content-link" href="contact.php">Vertel ons over uw project</a></p>
 
-      <div class="row margin-30">
-        <div class="col-md-6">
-          <ol class="gray">
-            <li>een flinke dosis programmeerkennis: <span class="orange">check</span></li>
-            <li>een stevige scheut inzicht in uw bedrijfsprocessen: <span class="orange">glashelder</span></li>
-            <li>een portie techneutentools als <a class="container-link" href="http://www.symfony.com/" target="_blank">Symfony</a>: <span class="orange">onze speeltuin</span></li>
-            <li>een vleugje passie: <span class="orange">tot in onze botten</span></li>
-          </ol><br />
-            <p>Toosten we binnenkort ook op uw succes? <a class="content-link" href="contact.php">Vertel ons over uw project</a></p>
-        </div>
+            </div>
 
-        <div class="col-md-6">
-          <p class="gray">
-            Weet u waarmee we ook het verschil maken in ons vakgebied? Kleinschaligheid.
-            Niet dat we ons als Calimero gedragen in een grote, boze wereld. Maar we zijn w&eacute;l lean-and-mean.
-            Met ervaren en perfect complementaire medewerkers.
-            Die vlotjes op elkaar zijn ingespeeld. En wellicht ook op uw golflengte zitten. <a class='content-link' href="contact.php">Neem de proef op de som</a>.
-          </p>
-        </div>
-      </div><!--End Row-->
-
+            <div class="col-md-6">
+                <div class="col-md-12 margin-20 text-center">
+                    <h2><span class="dark-gray">Kleinschalig m&eacute;t resultaatsgarantie</span></h2>
+                </div>
+                <p class="gray">
+                    Weet u waarmee we ook het verschil maken in ons vakgebied? Kleinschaligheid.
+                    Niet dat we ons als Calimero gedragen in een grote, boze wereld. Maar we zijn w&eacute;l lean-and-mean.
+                    Met ervaren en perfect complementaire medewerkers.
+                    Die vlotjes op elkaar zijn ingespeeld. En wellicht ook op uw golflengte zitten.<br /><br />
+                    <a class='content-link' href="contact.php">Neem de proef op de som</a>.
+                </p>
+            </div>
+        </div><!--End Row-->
     </div>
   </section>
 

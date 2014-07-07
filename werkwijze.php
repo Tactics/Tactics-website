@@ -47,59 +47,57 @@ include('menu.php');
     <div class="container">
 
         <div class="row margin-0">
-            <div class="col-md-6">
-                <h2 class="gray" id="kennismaking">1. Kennismaking</h2>
-            </div>
-            <div class="col-md-6">
-                <h2 class="gray" id="ontwikkeling">2. Ontwikkeling</h2>
-            </div>
-        </div>
-
-        <div class="row margin-30">
-            <div class="col-md-6">
+            <div class="col-md-6 margin-50">
+                <div class="col-md-12 margin-20 text-center">
+                    <h2><span class="dark-gray">1. Kennismaking</span></h2>
+                </div>
                 <p>
                     U kent uw business door en door. Wij nemen ruim de tijd om uw bedrijf en procedures te doorgronden via gesprekken met alle betrokkenen.
                     Zo analyseren we uw problematiek. En bepalen we de nodige functionaliteiten.
                     We kijken ook verder dan onze neus lang is: we nemen uw procedures, sector en concurrenten onder de loep.
                     Zodra u onze analyse goedkeurt, start de ontwikkelingsfase.
                 </p>
+
             </div>
+
             <div class="col-md-6">
+                <div class="col-md-12 margin-20 text-center">
+                    <h2><span class="dark-gray">2. Ontwikkeling</span></h2>
+                </div>
                 <p>
                     Uw betrokkenheid tijdens de ontwikkeling is van cruciaal belang om een geslaagd eindproduct op te leveren.
                     Daarom stellen we testgebruikers aan. Deze ‘proefkonijnen’ evalueren de ontwikkelde functies in de acceptatieomgeving – een interactief prototype.
                     Ze noteren opmerkingen en suggesties in het bug tracking-systeem. Zo voldoet uw applicatie geheid aan uw gebruikerswensen.
                 </p>
             </div>
-        </div><!-- End row -->
+        </div><!--End Row-->
+
 
         <div class="row margin-0">
-            <div class="col-md-6">
-                <h2 class="gray" id="oplevering">3. Oplevering</h2>
-            </div>
-            <div class="col-md-6">
-                <h2 class="gray" id="evaluatie">4. Evaluatie en nazorg</h2>
-            </div>
-        </div>
-
-        <div class="row margin-30">
-            <div class="col-md-6">
+            <div class="col-md-6 margin-50">
+                <div class="col-md-12 margin-20 text-center">
+                    <h2><span class="dark-gray">3. Oplevering</span></h2>
+                </div>
                 <p>
                     U kent uw business door en door. Wij nemen ruim de tijd om uw bedrijf en procedures te doorgronden via gesprekken met alle betrokkenen.
                     Zo analyseren we uw problematiek. En bepalen we de nodige functionaliteiten.
                     We kijken ook verder dan onze neus lang is: we nemen uw procedures, sector en concurrenten onder de loep.
                     Zodra u onze analyse goedkeurt, start de ontwikkelingsfase.
                 </p>
+
             </div>
+
             <div class="col-md-6">
+                <div class="col-md-12 margin-20 text-center">
+                    <h2><span class="dark-gray">4. Evaluatie en nazorg</span></h2>
+                </div>
                 <p>
                     Uw betrokkenheid tijdens de ontwikkeling is van cruciaal belang om een geslaagd eindproduct op te leveren.
                     Daarom stellen we testgebruikers aan. Deze ‘proefkonijnen’ evalueren de ontwikkelde functies in de acceptatieomgeving – een interactief prototype.
                     Ze noteren opmerkingen en suggesties in het bug tracking-systeem. Zo voldoet uw applicatie geheid aan uw gebruikerswensen.
                 </p>
             </div>
-        </div><!-- End row -->
-
+        </div><!--End Row-->
     </div>
 </section>
 
