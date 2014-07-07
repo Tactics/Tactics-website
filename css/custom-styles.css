@@ -1,6 +1,24 @@
 /* ==========================================================================
    Insert Your Custom Styles Below. All styles located in this file will
    override existing main.css stylesheets.
-   ========================================================================== */ 
+   ========================================================================== */
 
+.navbar-default .nav li.dropdown.open > .dropdown-toggle, .navbar-default .nav li.dropdown.active > .dropdown-toggle, .navbar-default .nav li.dropdown.open.active > .dropdown-toggle{color:#df8505;}
+.navbar-nav > li > .dropdown-menu{margin-top:10px;right:10px;text-align: right;}
 
+/*Collapse menu fix!*/
+.navbar-collapse.in, .navbar-collapse.collapsing{background-color:#f8f8f8;}
+
+/*Active menu fix*/
+/*
+For new pages --> create new page
+--> body class="newPage"
+--> add in menu.php WITH same classname (newPage)
+*/
+.home li.home a, .about li.about a, .projecten li.projecten a, .casestudies li.casestudies a, .contact li.contact a{color:#df8505;}
+.home li.home a:hover, .about li.about a:hover, .projecten li.projecten a:hover, .casestudies li.casestudies a:hover, .contact li.contact a:hover{color:#df8505;}
+/*Fix case studies dropdown menu*/
+.case-kinderopvangleuven .dropdown-toggle{color:#df8505!important;}
+.case-verenigingendatabank .dropdown-toggle{color:#df8505!important;}
+.case-verenigingendatabank li.case-verenigingendatabank a{color:#df8505;}
+.case-kinderopvangleuven li.case-kinderopvangleuven a{color:#df8505;}
