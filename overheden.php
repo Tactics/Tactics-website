@@ -7,33 +7,9 @@
     ?>
 </head>
 <body>
-<div class="cbp-af-header">
-    <div class="cbp-af-inner">
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Logo"></a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.php">Wat doen we</a></li>
-                        <li><a href="about.php">Wie zijn we</a></li>
-                        <li><a href="projecten.php">Projecten</a></li>
-                        <li><a href="casestudies.php">Case studies</a></li>
-                        <li><a href="contact.php">Contacteer ons</a></li>
-                        <!--<li class="sign-up"><a href="signup.html"><span class="white"> Sign Up</span></a></li>-->
-                    </ul>
-                </div><!--/.navbar-collapse -->
-            </div>
-        </div>
-    </div>
-</div>
-
+<?php
+    include('menu.php');
+?>
 
 <!--Header Section-->
 <section id="page-title">

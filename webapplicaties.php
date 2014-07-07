@@ -70,7 +70,7 @@
         </div>
 
         <div class="row margin-30">
-          <div class="col-md-8">
+          <div class="col-md-12">
             <p class="gray">Ons werk vangt aan met luisteren. Naar u. Want úw wensen zijn bepalend voor de opzet van uw webapplicatie.
               Zo is ze helemaal toegespitst op uw bedrijfsvoering. Tijdens het voortraject maken we een inventaris op van de bedrijfsprocessen
               die in aanmerking komen: financieel, administratief, commercieel, logistiek, … de lijst is lang. Net als die met <a class="content-link" href="projecten.php">gerealiseerde projecten</a>.
@@ -85,7 +85,7 @@
         </div>
 
         <div class="row margin-30">
-          <div class="col-md-8">
+          <div class="col-md-12">
             <p class="gray">Webapplicaties van Tactics vereenvoudigen uw werk en dat van uw gebruikers – ongeacht hun browser,
               besturingssysteem en computerkennis. Hoe? Door overbodige en repetitieve handelingen te vermijden of te automatiseren.
               En door maximaal gebruiksvriendelijke navigatiesystemen en vormgeving toe te passen, waarmee bijna elke computergebruiker vertrouwd is.
@@ -102,7 +102,7 @@
         </div>
 
         <div class="row margin-30">
-          <div class="col-md-8">
+          <div class="col-md-12">
             <p class="gray">Een webapplicatie biedt legio voordelen:</p>
             <ul class="gray">
               <li>geen installatie</li>
@@ -128,12 +128,12 @@
         </div>
 
         <div class="row margin-30">
-          <div class="col-md-8">
+          <div class="col-md-12">
             <p class="gray">Tactics maakt gebruik van de nieuwste technologie&eacute;n, z&oacute;nder risico’s te nemen.
               Dat betekent dat we alleen oplossingen hanteren die worden ondersteund of gebruikt door grote,
               erkende spelers op de markt. Zo krijgt u levensvatbare applicaties.
               We werken bovendien uitsluitend met open source-applicaties als
-              PHP, MySQL, PostgreSQL en <a class="container-link" href="http://symfony.com/" target="_blank">Symfony</a>. Die zijn betrouwbaar &eacute;n licentievrij!
+              PHP, MySQL, PostgreSQL en <a class="content-link" href="http://symfony.com/" target="_blank">Symfony</a>. Die zijn betrouwbaar &eacute;n licentievrij!
             </p>
           </div>
         </div><!--End Row-->

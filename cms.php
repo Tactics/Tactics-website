@@ -7,34 +7,9 @@
     ?>
 </head>
 <body>
-<div class="cbp-af-header">
-    <div class="cbp-af-inner">
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Logo"></a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.php">Wat doen we</a></li>
-                        <li><a href="about.php">Wie zijn we</a></li>
-                        <li><a href="projecten.php">Projecten</a></li>
-                        <li><a href="casestudies.php">Case studies</a></li>
-                        <li><a href="contact.php">Contacteer ons</a></li>
-                        <!--<li class="sign-up"><a href="signup.html"><span class="white"> Sign Up</span></a></li>-->
-                    </ul>
-                </div><!--/.navbar-collapse -->
-            </div>
-        </div>
-    </div>
-</div>
-
-
+<?php
+    include('menu.php');
+?>
 <!--Header Section-->
 <section id="page-title">
     <div class="container">
@@ -75,8 +50,8 @@
         <div class="row margin-0">
             <div class="col-md-10">
                 <p>
-                    Tactics verkiest gebruiksvriendelijke contentmanagementsystemen als <a class="container-link" href="http://www.drupal.org/" target="_blank">Drupal</a>
-                    en  <a class="container-link" href="http://www.magento.com/" target="_blank">Magento</a>.
+                    Tactics verkiest gebruiksvriendelijke contentmanagementsystemen als <a class="content-link" href="http://www.drupal.org/" target="_blank">Drupal</a>
+                    en  <a class="content-link" href="http://www.magento.com/" target="_blank">Magento</a>.
                     Daarmee beheert u snel, live en eenvoudig uw webshop – zónder technische kennis. De belangrijkste voordelen:
                 </p>
                 <ul>
@@ -93,7 +68,7 @@
                     <li>U breidt uw systeem gemakkelijk uit met nieuwe applicaties. Of u integreert het met bestaande toepassingen.</li>
                 </ul>
                 <p>
-                    <a class="container-link" href="contact.php">Profiteer n&uacute;</a> van een gebruiksvriendelijk en multifunctioneel cms.
+                    <a class="content-link" href="contact.php">Profiteer n&uacute;</a> van een gebruiksvriendelijk en multifunctioneel cms.
                     Tactics bouwt uw cms en het raamwerk eromheen, &uacute; focust op uw business.
                 </p>
             </div>
