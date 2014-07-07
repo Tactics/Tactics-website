@@ -108,7 +108,7 @@
             </div>
         </div>
 
-        <div class="row margin-0">
+        <div class="row margin-30">
             <div class="col-md-10">
                 <p>
                     We rolden de toepassing uit naar verschillende afdelingen van het stedelijke bedrijf Samen Leven.

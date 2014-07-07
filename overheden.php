@@ -74,7 +74,7 @@
             </div>
         </div>
 
-        <div class="row margin-0">
+        <div class="row margin-30">
             <div class="col-md-10">
                 <p>
                     Tactics bouwt applicaties om &aacute;l uw bedrijfsprocessen te automatiseren.

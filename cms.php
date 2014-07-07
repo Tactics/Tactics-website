@@ -47,7 +47,7 @@
             </div>
         </div>
 
-        <div class="row margin-0">
+        <div class="row margin-30">
             <div class="col-md-10">
                 <p>
                     Tactics verkiest gebruiksvriendelijke contentmanagementsystemen als <a class="content-link" href="http://www.drupal.org/" target="_blank">Drupal</a>

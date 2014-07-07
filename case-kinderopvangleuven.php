@@ -68,7 +68,7 @@
             </div>
         </div>
 
-        <div class="row margin-0">
+        <div class="row margin-30">
             <div class="col-md-10">
                 <p>
                     Tactics hield bij de ontwikkeling van de applicatie rekening met soepele integratiemogelijkheden.
