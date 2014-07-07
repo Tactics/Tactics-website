@@ -95,7 +95,7 @@
             <!--Section 3-->
             <a>
                 <div class="col-sm-4 text-center home-box">
-                    <i class="fa fa-shopping-cart fa-3x"></i>
+                    <i class="fa fa-cogs fa-3x"></i>
                     <a href="cms.php"><h3>Contentmanagementsystemen</h3></a>
                     <p>
                         Droomt u van een eigen webshop of een dynamische website die u gemakkelijk zélf beheert? Dan zet Tactics uw droom om in realiteit.
