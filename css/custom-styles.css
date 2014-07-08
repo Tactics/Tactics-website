@@ -22,6 +22,7 @@ For new pages --> create new page
 .case-verenigingendatabank .dropdown-toggle{color:#df8505!important;}
 .case-verenigingendatabank li.case-verenigingendatabank a{color:#df8505;}
 .case-kinderopvangleuven li.case-kinderopvangleuven a{color:#df8505;}
+input[type="text"]{padding:6px 15px;}
 /*
     @media (max-width: 1000px) {
         .navbar-header {
