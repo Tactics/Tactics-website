@@ -12,4 +12,4 @@
 <![endif]-->
 
 <script src="js/classie.js"></script>
-<script src="js/cbpanimatedheader-min.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
