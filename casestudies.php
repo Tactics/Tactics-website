@@ -77,14 +77,37 @@
     <section id="content">
       <div class="container">
 
-       <div class="row margin-0">
-          <div class="col-md-pull-0">
-            <p>
-              Binnenkort krijgt u hier enkele van onze case studies te zien.
-            </p>
+          <div class="row margin-0">
+              <div class="col-md-12">
+                  <h2 class="gray">Verenigingendatabank</h2>
+              </div>
           </div>
-        </div><!--End Row-->
-        
+
+          <div class="row margin-30">
+              <div class="col-md-10">
+                  <p>
+                      Softwareplatform voor de stedelijke vzw Antwerpen Sportstad om de opdrachten van de Stad Antwerpen te beheren.
+                      &#91;<a class="content-link" href="case-csj.php">lees meer</a>&#93;
+                  </p>
+              </div>
+          </div><!-- End row -->
+
+
+          <div class="row margin-0">
+              <div class="col-md-12">
+                  <h2 class="gray">Kinderdagverblijven Leuven</h2>
+              </div>
+          </div>
+
+          <div class="row margin-30">
+              <div class="col-md-10">
+                  <p>
+                      Aanmeldingsregister voor het Centraal Loket Kinderopvang om aanvragen te beheren voor buiten- en voorschoolse kinderopvang, en de opvang van zieke kinderen.
+                      &#91;<a class="content-link" href="case-kinderopvangleuven.php">lees meer</a>&#93;
+                  </p>
+              </div>
+          </div><!-- End row -->
+
       </div>
     </section>
 
