@@ -115,7 +115,7 @@
           <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
-              <span><strong>Joris Hontel&eacute;</strong><br /><em>PHP Developer</em></span>
+              <span><strong>Joris Hontel&eacute;</strong><br /><em>Web Developer</em></span>
             </span>
           </a>
         </div>
@@ -125,7 +125,7 @@
           <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
-              <span><strong>Aaron Muylaert</strong><br /><em>PHP Developer</em></span>
+              <span><strong>Aaron Muylaert</strong><br /><em>Web Developer</em></span>
             </span>
           </a>
         </div>
@@ -135,7 +135,7 @@
           <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
-              <span><strong>Jeroen Meert</strong><br /><em>PHP Developer</em></span>
+              <span><strong>Jeroen Meert</strong><br /><em>Web Developer</em></span>
             </span>
           </a>
         </div>
@@ -145,7 +145,7 @@
           <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
-              <span><strong>Bart Ruysseveldt</strong><br /><em>PHP Developer</em></span>
+              <span><strong>Bart Ruysseveldt</strong><br /><em>Web Developer</em></span>
             </span>
           </a>
         </div>
@@ -155,7 +155,7 @@
           <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
-              <span><strong>Glenn Van Loock</strong><br /><em>PHP Developer</em></span>
+              <span><strong>Glenn Van Loock</strong><br /><em>Web Developer</em></span>
             </span>
           </a>
         </div>
@@ -165,7 +165,7 @@
           <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
-              <span><strong>Jochen Janssens</strong><br /><em>PHP Developer</em></span>
+              <span><strong>Jochen Janssens</strong><br /><em>Web Developer</em></span>
             </span>
           </a>
         </div>
@@ -175,11 +175,21 @@
           <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
-              <span><strong>Benjamin Boutmans</strong><br /><em>Newbie PHP Developer</em></span>
+              <span><strong>Benjamin Boutmans</strong><br /><em>Web Developer</em></span>
             </span>
           </a>
         </div>
-        
+
+        <!--Team Member-->
+        <div class="col-sm-2 text-center team-member">
+          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
+          <a>
+            <span class="info">
+              <span><strong>Jonas De Wint</strong><br /><em>Web Developer</em></span>
+            </span>
+          </a>
+        </div>
+
       </div>
     </div>
   </section>
