@@ -153,6 +153,9 @@ iframe {
 .margin-100 {
     margin-bottom: 100px !important;
 }
+.margin-top-50 {
+    margin-top: 50px !important;
+}
 
 
 /*----------Colors-------------------*/
@@ -571,7 +574,7 @@ li.sign-up:hover {
 
 #clients {
   background: #ffffff;
-  padding: 80px 0 60px 0;
+  padding: 50px 0 60px 0;
 }
 
 .clients img {
