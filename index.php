@@ -21,44 +21,7 @@
         </div>
     </div>
 </section>
-<!--    <section id="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            &lt;!&ndash;BxSlider&ndash;&gt;
-              <ul class="bxslider">
-                <li>
-                  <img src="img/main_photo_2.jpg" alt="Webapplicaties" />
-                  <div class="row text-center">
-                    <div class="col-sm-10 col-sm-offset-1">
-                    <h1><span class="mainCaption">Webapplicaties</span><br/><br/><span class="subCaption">Op maat naar eigen wens</span></h1><br />
-                    <a class="btn-main" href="about.html">Learn More</a>
-                    </div>
-                  </div>
-                </li>
-                &lt;!&ndash;&ndash;&gt;
-&lt;!&ndash;<li>&ndash;&gt;
-&lt;!&ndash;<img src="img/main_photo.png" alt="Title" />&ndash;&gt;
-&lt;!&ndash;<div class="row text-center">&ndash;&gt;
-&lt;!&ndash;<div class="col-sm-10 col-sm-offset-1">&ndash;&gt;
-&lt;!&ndash;<h1><span class="mainCaption">Built to look good on all devices.</span><br/><br/><span class="subCaption">Resize your browser to take a look for yourself.</span></h1><br />&ndash;&gt;
-&lt;!&ndash;<a class="btn-main" href="about.html">Learn More</a>&ndash;&gt;
-&lt;!&ndash;</div>&ndash;&gt;
-&lt;!&ndash;</div>&ndash;&gt;
-&lt;!&ndash;</li>&ndash;&gt;
-              </ul>
-
-          </div>&lt;!&ndash;End Span12&ndash;&gt;
-        </div>
-      </div>
-    </section>-->
-
-<!-- Start nieuwe app -->
-<!--<div id="nieuweApp">
-  <p><span class="orange">Start nu</span> met uw nieuwe webapplicatie ! <a href="#" class="button">Klik hier</a></p>
-</div>-->
-
+    
 <!--Home Content-->
 <section id="home-content">
     <div class="container">
@@ -114,32 +77,15 @@
 <!--Content Section-->
 <section id="content">
     <div class="container">
-        <!--<div class="row margin-50">-->
-        <!--<div class="col-md-12 text-center">-->
-        <!--<ul class="list-inline home-icons">-->
-        <!--<li><a href="#"><i class="fa fa-rocket fa-4x orange"></i></a></li>-->
-        <!--<li><a href="#"><i class="fa fa-heart fa-4x orange"></i></a></li>-->
-        <!--<li><a href="#"><i class="fa fa-truck fa-4x orange"></i></a></li>-->
-        <!--<li><a href="#"><i class="fa fa-cogs fa-4x orange"></i></a></li>-->
-        <!--<li><a href="#"><i class="fa fa-lock fa-4x orange"></i></a></li>-->
-        <!--<li><a href="#"><i class="fa fa-check fa-4x orange"></i></a></li>-->
-        <!--</ul>-->
-        <!--</div>-->
-        <!--</div>-->
-
-        <div class="row margin-30">
-            <div class="col-md-8 col-md-offset-2 text-center">
+        <div class="row">
+            <div class="col-md-12 text-center">
                 <h1 class="dark-gray">Welkom bij Tactics</h1>
             </div>
         </div>
 
-        <div class="row margin-0">
+        <div class="row col-md-12">
             <div class="col-md-6">
                 <h2 class="gray">Dit doen wij voor u</h2>
-            </div>
-        </div>
-        <div class="row margin-0">
-            <div class="col-md-6">
                 <ul>
                     <li>Tactics ontwikkelt webtoepassingen, groot en klein, op maat;</li>
                     <li>geeft uw bedrijf een volwaardige plek op het web met websites met karakter;</li>
@@ -147,15 +93,11 @@
                     <li>beveiligt uw gegevens, met online backup.</li>
                 </ul>
             </div>
-        </div><!-- End row -->
+        </div>
 
-        <div class="row margin-0">
+        <div class="row col-md-12">
             <div class="col-md-6">
                 <h2 class="gray">Hoe we werken</h2>
-            </div>
-        </div>
-        <div class="row margin-0">
-            <div class="col-md-6">
                 <ul>
                     <li>Met kennis van zaken.  En een vleugje passie voor de job.</li>
                     <li>Met visie op lange termijn.  We werken samen met u aan uw toekomst.</li>
@@ -163,15 +105,11 @@
                     <li>Met moderne technologiën.  Wij zijn mee, u dus ook.</li>
                 </ul>
             </div>
-        </div><!--End Row-->
+        </div>
 
-        <div class="row margin-0">
+        <div class="row col-md-12">
             <div class="col-md-6">
                 <h2 class="gray">Gingen u reeds voor</h2>
-            </div>
-        </div>
-        <div class="row margin-30">
-            <div class="col-md-6">
                 <ul>
                     <li>Stad Antwerpen: met onder andere applicaties voor kinderopvang en sport.</li>
                     <li>Stad Gent: Voorschoolse kinderopvang en buitenschoolse kinderopvang</li>
@@ -182,10 +120,10 @@
                     In ons <a class="content-link" href="projecten.php">portfolio</a> presenteren we nog meer klanten en de oplossingen die we met hen uitwerkten.
                 </p>
             </div>
-        </div><!--End Row-->
+        </div>
 
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center margin-top-50">
                 <a class="btn-main" href="contact.php">Contacteer Ons</a>
             </div>
         </div><!--End Row-->
