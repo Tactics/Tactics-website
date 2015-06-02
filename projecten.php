@@ -29,11 +29,6 @@
             <li>
                 <div class="thumbs">
                     <img src="img/pringles_color.gif" class="img-responsive" alt="Image Size 430x280">
-                    <a href="portfolio-pringles.php">
-                    <span class="title">
-                        <span><i class="fa fa-link fa-2x"></i></span>
-                    </span>
-                    </a>
                 </div>
 
                 <div class="project-title margin-30">
