@@ -25,17 +25,6 @@
   <!--Portfolio Content-->
   <section id="content">
     <div class="container">
-      
-      <!--<div class="row margin-20">-->
-        <!--<div class="col-md-12">-->
-          <!--<ul class="list-inline">-->
-            <!--<li><a href="#" data-toggle="portfilter" data-target="all">All</a></li>-->
-            <!--<li><a href="#" data-toggle="portfilter" data-target="graphics">Graphics</a></li>-->
-            <!--<li><a href="#" data-toggle="portfilter" data-target="web">Web</a></li>-->
-            <!--<li><a href="#" data-toggle="portfilter" data-target="videos">Videos</a></li>-->
-          <!--</ul>-->
-        <!--</div>-->
-      <!--</div>-->
         <h3 class="orange">In uitvoering</h3>
         <div class="row">
 
@@ -65,7 +54,7 @@
                     </div>
 
                     <div class="project-title margin-30">
-                        <h5>Kinderopvang in Brussel (VBJK) </h5>
+                        <h5>Kinderopvang in Brussel</h5>
                     </div>
                 </li>
                 <li>
