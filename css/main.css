@@ -108,6 +108,7 @@ a:hover {
 	color: #FFFFFF;
 }
 
+.right{float:right;}
 iframe {
   background: none;
   border: none;
@@ -886,16 +887,8 @@ textarea {
    Contact Page Styles
    ========================================================================== */
 #map {
-    height: 265px;
+    height: 565px;
     padding-bottom: 0;
-}
-
-#map > iframe {
-    background-color: transparent;
-    border: medium none;
-    height: inherit;
-    overflow: hidden;
-    width: 100%;
 }
 
 
@@ -1182,6 +1175,9 @@ ul.portfolio li {
     margin-left: 0;
     width: 100%;
 }
+#map {
+    height: 265px;
+}
 	
 }
 
@@ -1217,6 +1213,9 @@ ul.portfolio li {
     float: left;
     margin-left: 0;
     width: 48%;
+}
+#map {
+    height: 265px;
 }
 
 }
