@@ -21,17 +21,16 @@
         </div>
     </div>
 </section>
-    
+
 <!--Home Content-->
 <section id="home-content">
     <div class="container">
         <div class="row">
 
             <!--Section 1-->
-
-            <div class="col-sm-4 text-center home-box">
-                <i class="fa fa-desktop fa-3x"></i>
-                <a href="webapplicaties.php"><h3>Applicaties</h3></a>
+            <div class="col-md-4 text-center home-box" data-url="webapplicaties.php">
+                <i class="fa fa-desktop fa-4x"></i>
+                <h3>Applicaties</h3>
                 <p>
                     Tactics ontwikkelt <a class="container-link" href="webapplicaties.php#maatwerk">(web)applicaties op maat</a>, die uw bedrijfsactiviteiten <a class="container-link" href="webapplicaties.php#vereenvoudigen">vereenvoudigen</a> en stroomlijnen.
                     En het takenpakket van uw gebruikers verlichten door functies te automatiseren.
@@ -42,10 +41,9 @@
             </div>
 
             <!--Section 2-->
-            <a>
-                <div class="col-sm-4 text-center home-box">
-                    <i class="fa fa-university fa-3x"></i>
-                    <a href="overheden.php"><h3>Lokale overheden</h3></a>
+                <div class="col-md-4 text-center home-box" data-url="overheden.php">
+                    <i class="fa fa-university fa-4x"></i>
+                    <h3>Lokale overheden</h3>
                     <p>
                         Bij uw dienstverlening aan de burger komt een berg administratie kijken - tijd die u beter spendeert aan uw service.
                         Doe uw voordeel met de slimme webapplicaties van Tactics. Zo automatiseert u uw administratieve handelingen, werkt u
@@ -53,13 +51,11 @@
                         <a class="container-link" href="overheden.php">Verbeter uw dienstverlening</a>
                     </p>
                 </div>
-            </a>
 
             <!--Section 3-->
-            <a>
-                <div class="col-sm-4 text-center home-box">
-                    <i class="fa fa-cogs fa-3x"></i>
-                    <a href="cms.php"><h3>Contentmanagementsystemen</h3></a>
+                <div class="col-md-4 text-center home-box" data-url="cms.php">
+                    <i class="fa fa-cogs fa-4x"></i>
+                    <h3>Content Management Systemen</h3>
                     <p>
                         Droomt u van een eigen webshop of een dynamische website die u gemakkelijk zélf beheert? Dan zet Tactics uw droom om in realiteit.
                         Met flexibele en gebruiksvriendelijke contentmanagementsystemen (cms) die voldoen aan ál uw eisen.
@@ -67,7 +63,6 @@
                         <a class="container-link" href="cms.php">Zet uw bedrijf op de digitale kaart</a>
                     </p>
                 </div>
-            </a>
 
         </div>
     </div>
@@ -139,33 +134,21 @@
 
             <!--Insert Client Logos Below-->
             <div class="col-sm-3">
-                <a href="#"><img src="img/client_A.gif" alt="Title"></a>
+                <img src="img/client_A.gif" alt="Antwerpen">
             </div>
 
             <div class="col-sm-3">
-                <a href="#"><img src="img/client_H.gif" alt="Title"></a>
+                <img src="img/client_H.gif" alt="Hivset">
             </div>
 
             <div class="col-sm-3">
-                <a href="#"><img src="img/client_P.gif" alt="Title"></a>
+                <img src="img/client_P.gif" alt="Pringles">
             </div>
 
             <div class="col-sm-3">
-                <a href="#"><img src="img/client_L.gif" alt="Title"></a>
+                <img src="img/client_L.gif" alt="Kinderopvang Leuven">
             </div>
 
-        </div>
-    </div>
-</section>
-
-<!--Message-->
-<section id="message">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 text-center">
-                <h4 class="gray">Nieuws</h4>
-                <p>Onze nieuwe website staat online!</p>
-            </div>
         </div>
     </div>
 </section>
@@ -194,6 +177,10 @@
             adaptiveHeight: false,
             autoControls: false
         });
+
+        $('.home-box').on('click', function() {
+            window.location = $(this).data('url');
+        })
     });
 </script>
 
