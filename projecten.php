@@ -26,9 +26,34 @@
   <section id="content">
     <div class="container">
         <ul class="list-inline portfolio text-center">
+            <!-- Add wen image and description is available
             <li>
                 <div class="thumbs">
                     <img src="img/pringles_color.gif" class="img-responsive" alt="Image Size 430x280">
+                </div>
+
+                <div class="project-title margin-30">
+                    <h5>Stagebeheer Universiteit Gent</h5>
+                </div>
+            </li>
+            -->
+            <li>
+                <div class="thumbs">
+                    <img src="img/kinderopvangaalst.jpg" class="img-responsive" alt="kinderopvang_aalst">
+                    <a href="portfolio-kinderopvangaalst.php">
+                      <span class="title">
+                          <span><i class="fa fa-link fa-2x"></i></span>
+                      </span>
+                    </a>
+                </div>
+
+                <div class="project-title margin-30">
+                    <h5>Kinderopvang in Aalst</h5>
+                </div>
+            </li>
+            <li>
+                <div class="thumbs">
+                    <img src="img/pringles_color.gif" class="img-responsive" alt="Pringles">
                 </div>
 
                 <div class="project-title margin-30">
@@ -37,7 +62,7 @@
             </li>
             <li>
                 <div class="thumbs">
-                    <img src="img/kinderopvangbrussel.gif" class="img-responsive" alt="Image Size 430x280">
+                    <img src="img/kinderopvangbrussel.gif" class="img-responsive" alt="kinderopvang_brussel">
                     <a href="portfolio-kinderopvangbrussel.php">
                       <span class="title">
                           <span><i class="fa fa-link fa-2x"></i></span>
@@ -51,7 +76,7 @@
             </li>
             <li>
                 <div class="thumbs">
-                    <img src="img/kinderopvangoostende.gif" class="img-responsive" alt="Image Size 430x280">
+                    <img src="img/kinderopvangoostende.gif" class="img-responsive" alt="kinderopvang_oostende">
                     <a href="portfolio-kinderopvangoostende.php">
                     <span class="title">
                         <span><i class="fa fa-link fa-2x"></i></span>
@@ -65,7 +90,7 @@
             </li>
             <li>
                 <div class="thumbs">
-                <img src="img/portfolio1.gif" class="img-responsive" alt="Image Size 430x280">
+                <img src="img/portfolio1.gif" class="img-responsive" alt="csj">
                 <a href="portfolio-csj.php">
                     <span class="title">
                         <span><i class="fa fa-link fa-2x"></i></span>
@@ -79,7 +104,7 @@
             </li>
             <li>
                 <div class="thumbs">
-                <img src="img/portfolio2.gif" class="img-responsive" alt="Image Size 430x280">
+                <img src="img/portfolio2.gif" class="img-responsive" alt="sportdienst_antwerpen">
                 <a href="portfolio-sportdienst.php">
                     <span class="title">
                         <span><i class="fa fa-link fa-2x"></i></span>
@@ -93,7 +118,7 @@
             </li>
             <li>
               <div class="thumbs">
-                <img src="img/portfolio5.gif" class="img-responsive" alt="Image Size 430x280">
+                <img src="img/portfolio5.gif" class="img-responsive" alt="kinderopvang_leuven">
                 <a href="portfolio-leuven.php">
                         <span class="title">
                             <span><i class="fa fa-link fa-2x"></i></span>
@@ -107,7 +132,7 @@
             </li>
             <li>
               <div class="thumbs">
-                  <img src="img/kinderopvangantwerpen.gif" class="img-responsive" alt="Image Size 430x280">
+                  <img src="img/kinderopvangantwerpen.gif" class="img-responsive" alt="kinderopvang_antwerpen">
                   <a href="portfolio-kinderopvangantwerpen.php">
                     <span class="title">
                         <span><i class="fa fa-link fa-2x"></i></span>
@@ -122,7 +147,7 @@
 
           <li>
               <div class="thumbs">
-                  <img src="img/kinderopvanggent.gif" class="img-responsive" alt="Image Size 430x280">
+                  <img src="img/kinderopvanggent.gif" class="img-responsive" alt="kinderopvang_gent">
                   <a href="portfolio-kinderopvanggent.php">
                     <span class="title">
                         <span><i class="fa fa-link fa-2x"></i></span>
@@ -136,7 +161,7 @@
           </li>
           <li>
               <div class="thumbs">
-                  <img src="img/portfolio3.gif" class="img-responsive" alt="Image Size 430x280">
+                  <img src="img/portfolio3.gif" class="img-responsive" alt="kdv_kavka_jespo">
                   <a href="portfolio-kdv-kavka-jespo.php">
                     <span class="title">
                         <span><i class="fa fa-link fa-2x"></i></span>
@@ -150,7 +175,7 @@
           </li>
           <li>
               <div class="thumbs">
-                  <img src="img/portfolio4.gif" class="img-responsive" alt="Image Size 430x280">
+                  <img src="img/portfolio4.gif" class="img-responsive" alt="hivset">
                   <a href="portfolio-hivset.php">
                     <span class="title">
                         <span><i class="fa fa-link fa-2x"></i></span>
