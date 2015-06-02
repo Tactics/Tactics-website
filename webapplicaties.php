@@ -35,7 +35,7 @@
             <!--</ul>-->
             <!--</li>-->
             <li><a href="about.php">Wie zijn we</a></li>
-            <li class="active"><a href="projecten.php">Projecten</a></li>
+            <li><a href="projecten.php">Projecten</a></li>
             <li><a href="casestudies.php">Case studies</a></li>
             <li><a href="contact.php">Contacteer ons</a></li>
             <!--<li class="sign-up"><a href="signup.html"><span class="white"> Sign Up</span></a></li>-->
@@ -51,7 +51,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 title-white">
-          <h2>Projecten</h2>
+          <h2>Applicaties</h2>
         </div>
       </div>
     </div>
