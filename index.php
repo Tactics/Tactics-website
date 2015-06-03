@@ -178,7 +178,7 @@ include('scripts.php');
                 $('.title-orange').css('background-image', "url('img/arrow-orange.png')");
                 $('.title-orange').css('transition', "none");
                 $('.title-orange').css('-moz-transition', "none");
-                $('.title-orange').css('-webkit-transition', "none"); 
+                $('.title-orange').css('-webkit-transition', "none");
             }
         );
 
