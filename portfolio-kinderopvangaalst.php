@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php
-    $PageTitle="Tactics bvba | Kinderopvang Brussel";
+    $PageTitle="Tactics bvba | Kinderopvang Aalst";
     include('header.php');
     ?>
 </head>
@@ -16,7 +16,7 @@ include('menu.php');
     <div class="container">
       <div class="row">
         <div class="col-md-12 title-orange">
-          <h2>Kinderopvang in Brussel</h2>
+          <h2>Kinderopvang stad Aalst</h2>
         </div>
       </div>
     </div>
@@ -27,15 +27,18 @@ include('menu.php');
   <section id="orange-container">
     <div class="container">
       <div class="row">
+        
         <div class="col-md-12">
           <p class="white">
-              We ontwikkelden een centraal aanmeldingsregister voor alle opvangvragen voor voorschoolse opvang in Brussel.<br/>
+              Voor de stad Aalst ontwikkelden we een centraal aanmeldingsregister voor alle opvangvragen voor voorschoolse opvang.<br/>
               Een aantal modules die werden voorzien ter ondersteuning van deze dienst:<br/>
-              <ul class="white">
+            <ul class="white">
                 <li>Aanmeldplatform</li>
                 <li>Planningsysteem</li>
+                <li>Aanwezighedenregistratie</li>
+                <li>Facturatie</li>
                 <li>Communicatie</li>
-              </ul>
+            </ul>
           </p>
         </div>
       </div>
@@ -49,8 +52,10 @@ include('menu.php');
       <div class="row">
 
         <div class="col-md-10">
+          <div class="col-md-10">
             <h2 class="dark-gray">Links</h2>
             <p>Nog geen publieke link beschikbaar.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -66,7 +71,7 @@ include('menu.php');
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <?php
-        include('scripts.php');
+     include('scripts.php');
     ?>
     </body>
 </html>

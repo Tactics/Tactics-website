@@ -49,10 +49,8 @@
     <div class="container">
 
         <div class="row margin-0">
-            <div class="col-md-6 margin-50">
-                <div class="col-md-12 margin-20 text-center">
-                     <h2><span class="dark-gray">Ons DNA</span></h2>
-                </div>
+            <div class="col-md-6">
+                <h2><span class="dark-gray">Ons DNA</span></h2>
                 <ol class="gray">
                     <li>een flinke dosis programmeerkennis: <span class="orange">check</span></li>
                     <li>een stevige scheut inzicht in uw bedrijfsprocessen: <span class="orange">glashelder</span></li>
@@ -64,9 +62,7 @@
             </div>
 
             <div class="col-md-6">
-                <div class="col-md-12 margin-20 text-center">
-                    <h2><span class="dark-gray">Kleinschalig m&eacute;t resultaatsgarantie</span></h2>
-                </div>
+                <h2><span class="dark-gray">Kleinschalig m&eacute;t resultaatsgarantie</span></h2>
                 <p class="gray">
                     Weet u waarmee we ook het verschil maken in ons vakgebied? Kleinschaligheid.
                     Niet dat we ons als Calimero gedragen in een grote, boze wereld. Maar we zijn w&eacute;l lean-and-mean.
@@ -82,7 +78,7 @@
   <!--Team Section-->
   <section id="team">
     <div class="container">
-      <div class="row margin-40">
+      <div class="row">
         <div class="col-md-12">
           <h3><span class="orange">Ons team</span></h3>
         </div>
@@ -92,7 +88,6 @@
         
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
-          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
               <span><strong>Taco Orens</strong><br /><em>Zaakvoerder</em></span>
@@ -102,7 +97,6 @@
         
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
-          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
               <span><strong>Gert Vrebos</strong><br /><em>Zaakvoerder</em></span>
@@ -112,27 +106,24 @@
         
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
-          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
-              <span><strong>Joris Hontel&eacute;</strong><br /><em>Web Developer</em></span>
+              <span><strong>Joris Hontel&eacute;</strong><br /><em>Team Leader</em></span>
             </span>
           </a>
         </div>
         
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
-          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
-              <span><strong>Aaron Muylaert</strong><br /><em>Web Developer</em></span>
+              <span><strong>Aaron Muylaert</strong><br /><em>Team Leader</em></span>
             </span>
           </a>
         </div>
 
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
-          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
               <span><strong>Jeroen Meert</strong><br /><em>Web Developer</em></span>
@@ -142,7 +133,6 @@
 
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
-          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
               <span><strong>Bart Ruysseveldt</strong><br /><em>Web Developer</em></span>
@@ -152,7 +142,6 @@
 
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
-          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
               <span><strong>Glenn Van Loock</strong><br /><em>Web Developer</em></span>
@@ -162,7 +151,6 @@
 
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
-          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
               <span><strong>Jochen Janssens</strong><br /><em>Web Developer</em></span>
@@ -172,7 +160,6 @@
 
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
-          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
               <span><strong>Benjamin Boutmans</strong><br /><em>Web Developer</em></span>
@@ -182,12 +169,29 @@
 
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
-          <!--<img src="img/team-03.png" class="img-responsive" alt="Title">-->
           <a>
             <span class="info">
               <span><strong>Jonas De Wint</strong><br /><em>Web Developer</em></span>
             </span>
           </a>
+        </div>
+
+        <!--Team Member-->
+        <div class="col-sm-2 text-center team-member">
+            <a>
+          <span class="info">
+            <span><strong>Tom De Roo</strong><br /><em>Web Developer</em></span>
+          </span>
+            </a>
+        </div>
+
+        <!--Team Member-->
+        <div class="col-sm-2 text-center team-member">
+            <a>
+          <span class="info">
+            <span><strong>Tim Van Mierlo</strong><br /><em>Service Desk Member</em></span>
+          </span>
+            </a>
         </div>
 
       </div>

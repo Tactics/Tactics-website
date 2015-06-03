@@ -2,62 +2,25 @@
 <html lang="en">
 <head>
     <?php
-        $PageTitle="Tactics bvba | Home";
-        include('header.php');
+    $PageTitle="Tactics bvba | Home";
+    include('header.php');
     ?>
 </head>
 <body class="home">
-    <?php
-        include('menu.php');
-    ?>
+<?php
+include('menu.php');
+?>
 
 <!--Header Section-->
 <section id="page-title">
     <div class="container">
         <div class="row">
             <div class="col-md-12 title-orange">
-                <h2>Onze hoofdactiviteiten</h2>
+                <h2>Welkom bij Tactics</h2>
             </div>
         </div>
     </div>
 </section>
-<!--    <section id="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-
-            &lt;!&ndash;BxSlider&ndash;&gt;
-              <ul class="bxslider">
-                <li>
-                  <img src="img/main_photo_2.jpg" alt="Webapplicaties" />
-                  <div class="row text-center">
-                    <div class="col-sm-10 col-sm-offset-1">
-                    <h1><span class="mainCaption">Webapplicaties</span><br/><br/><span class="subCaption">Op maat naar eigen wens</span></h1><br />
-                    <a class="btn-main" href="about.html">Learn More</a>
-                    </div>
-                  </div>
-                </li>
-                &lt;!&ndash;&ndash;&gt;
-&lt;!&ndash;<li>&ndash;&gt;
-&lt;!&ndash;<img src="img/main_photo.png" alt="Title" />&ndash;&gt;
-&lt;!&ndash;<div class="row text-center">&ndash;&gt;
-&lt;!&ndash;<div class="col-sm-10 col-sm-offset-1">&ndash;&gt;
-&lt;!&ndash;<h1><span class="mainCaption">Built to look good on all devices.</span><br/><br/><span class="subCaption">Resize your browser to take a look for yourself.</span></h1><br />&ndash;&gt;
-&lt;!&ndash;<a class="btn-main" href="about.html">Learn More</a>&ndash;&gt;
-&lt;!&ndash;</div>&ndash;&gt;
-&lt;!&ndash;</div>&ndash;&gt;
-&lt;!&ndash;</li>&ndash;&gt;
-              </ul>
-
-          </div>&lt;!&ndash;End Span12&ndash;&gt;
-        </div>
-      </div>
-    </section>-->
-
-<!-- Start nieuwe app -->
-<!--<div id="nieuweApp">
-  <p><span class="orange">Start nu</span> met uw nieuwe webapplicatie ! <a href="#" class="button">Klik hier</a></p>
-</div>-->
 
 <!--Home Content-->
 <section id="home-content">
@@ -65,10 +28,9 @@
         <div class="row">
 
             <!--Section 1-->
-
-            <div class="col-sm-4 text-center home-box">
-                <i class="fa fa-desktop fa-3x"></i>
-                <a href="webapplicaties.php"><h3>Applicaties</h3></a>
+            <div class="col-md-4 text-center home-box first" data-url="webapplicaties.php">
+                <i class="fa fa-desktop fa-4x"></i>
+                <h3>Applicaties</h3>
                 <p>
                     Tactics ontwikkelt <a class="container-link" href="webapplicaties.php#maatwerk">(web)applicaties op maat</a>, die uw bedrijfsactiviteiten <a class="container-link" href="webapplicaties.php#vereenvoudigen">vereenvoudigen</a> en stroomlijnen.
                     En het takenpakket van uw gebruikers verlichten door functies te automatiseren.
@@ -79,32 +41,28 @@
             </div>
 
             <!--Section 2-->
-            <a>
-                <div class="col-sm-4 text-center home-box">
-                    <i class="fa fa-university fa-3x"></i>
-                    <a href="overheden.php"><h3>Lokale overheden</h3></a>
-                    <p>
-                        Bij uw dienstverlening aan de burger komt een berg administratie kijken - tijd die u beter spendeert aan uw service.
-                        Doe uw voordeel met de slimme webapplicaties van Tactics. Zo automatiseert u uw administratieve handelingen, werkt u
-                        effici&euml;nter en houdt u uw burgers up-to-date<br />
-                        <a class="container-link" href="overheden.php">Verbeter uw dienstverlening</a>
-                    </p>
-                </div>
-            </a>
+            <div class="col-md-4 text-center home-box" data-url="overheden.php">
+                <i class="fa fa-university fa-4x"></i>
+                <h3>Lokale overheden</h3>
+                <p>
+                    Bij uw dienstverlening aan de burger komt een berg administratie kijken - tijd die u beter spendeert aan uw service.
+                    Doe uw voordeel met de slimme webapplicaties van Tactics. Zo automatiseert u uw administratieve handelingen, werkt u
+                    effici&euml;nter en houdt u uw burgers up-to-date<br />
+                    <a class="container-link" href="overheden.php">Verbeter uw dienstverlening</a>
+                </p>
+            </div>
 
             <!--Section 3-->
-            <a>
-                <div class="col-sm-4 text-center home-box">
-                    <i class="fa fa-cogs fa-3x"></i>
-                    <a href="cms.php"><h3>Contentmanagementsystemen</h3></a>
-                    <p>
-                        Droomt u van een eigen webshop of een dynamische website die u gemakkelijk zélf beheert? Dan zet Tactics uw droom om in realiteit.
-                        Met flexibele en gebruiksvriendelijke contentmanagementsystemen (cms) die voldoen aan ál uw eisen.
-                        En waarmee u snel, veilig en eenvoudig uw aanwezigheid op het internet optimaliseert.<br />
-                        <a class="container-link" href="cms.php">Zet uw bedrijf op de digitale kaart</a>
-                    </p>
-                </div>
-            </a>
+            <div class="col-md-4 text-center home-box" data-url="cms.php">
+                <i class="fa fa-cogs fa-4x"></i>
+                <h3>Content Management Systemen</h3>
+                <p>
+                    Droomt u van een eigen webshop of een dynamische website die u gemakkelijk zélf beheert? Dan zet Tactics uw droom om in realiteit.
+                    Met flexibele en gebruiksvriendelijke contentmanagementsystemen (cms) die voldoen aan ál uw eisen.
+                    En waarmee u snel, veilig en eenvoudig uw aanwezigheid op het internet optimaliseert.<br />
+                    <a class="container-link" href="cms.php">Zet uw bedrijf op de digitale kaart</a>
+                </p>
+            </div>
 
         </div>
     </div>
@@ -114,32 +72,9 @@
 <!--Content Section-->
 <section id="content">
     <div class="container">
-        <!--<div class="row margin-50">-->
-        <!--<div class="col-md-12 text-center">-->
-        <!--<ul class="list-inline home-icons">-->
-        <!--<li><a href="#"><i class="fa fa-rocket fa-4x orange"></i></a></li>-->
-        <!--<li><a href="#"><i class="fa fa-heart fa-4x orange"></i></a></li>-->
-        <!--<li><a href="#"><i class="fa fa-truck fa-4x orange"></i></a></li>-->
-        <!--<li><a href="#"><i class="fa fa-cogs fa-4x orange"></i></a></li>-->
-        <!--<li><a href="#"><i class="fa fa-lock fa-4x orange"></i></a></li>-->
-        <!--<li><a href="#"><i class="fa fa-check fa-4x orange"></i></a></li>-->
-        <!--</ul>-->
-        <!--</div>-->
-        <!--</div>-->
-
-        <div class="row margin-30">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <h1 class="dark-gray">Welkom bij Tactics</h1>
-            </div>
-        </div>
-
-        <div class="row margin-0">
-            <div class="col-md-6">
+        <div class="row col-md-7">
+            <div class="col-md-12 margin-20">
                 <h2 class="gray">Dit doen wij voor u</h2>
-            </div>
-        </div>
-        <div class="row margin-0">
-            <div class="col-md-6">
                 <ul>
                     <li>Tactics ontwikkelt webtoepassingen, groot en klein, op maat;</li>
                     <li>geeft uw bedrijf een volwaardige plek op het web met websites met karakter;</li>
@@ -147,15 +82,8 @@
                     <li>beveiligt uw gegevens, met online backup.</li>
                 </ul>
             </div>
-        </div><!-- End row -->
-
-        <div class="row margin-0">
-            <div class="col-md-6">
+            <div class="col-md-12 margin-20">
                 <h2 class="gray">Hoe we werken</h2>
-            </div>
-        </div>
-        <div class="row margin-0">
-            <div class="col-md-6">
                 <ul>
                     <li>Met kennis van zaken.  En een vleugje passie voor de job.</li>
                     <li>Met visie op lange termijn.  We werken samen met u aan uw toekomst.</li>
@@ -163,15 +91,8 @@
                     <li>Met moderne technologiën.  Wij zijn mee, u dus ook.</li>
                 </ul>
             </div>
-        </div><!--End Row-->
-
-        <div class="row margin-0">
-            <div class="col-md-6">
+            <div class="col-md-12 margin-20">
                 <h2 class="gray">Gingen u reeds voor</h2>
-            </div>
-        </div>
-        <div class="row margin-30">
-            <div class="col-md-6">
                 <ul>
                     <li>Stad Antwerpen: met onder andere applicaties voor kinderopvang en sport.</li>
                     <li>Stad Gent: Voorschoolse kinderopvang en buitenschoolse kinderopvang</li>
@@ -182,68 +103,56 @@
                     In ons <a class="content-link" href="projecten.php">portfolio</a> presenteren we nog meer klanten en de oplossingen die we met hen uitwerkten.
                 </p>
             </div>
-        </div><!--End Row-->
-
-        <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 margin-top-50 margin-50">
                 <a class="btn-main" href="contact.php">Contacteer Ons</a>
             </div>
-        </div><!--End Row-->
+        </div>
 
-    </div>
-</section>
 
-<!--Clients Section-->
-<section id="clients">
-    <div class="container">
+        <!-- News section -->
+        <div class="news row col-md-4 col-md-offset-1">
+            <h2 class="gray">Heet van de naald</h2>
+            <div style="clear:both;"></div>
 
-        <div class="row clients text-center">
+            <a href="news-kinderopvang-goudenkinderschoen.php">
+                <div class="news-block col-md-12">
+                    <h4 class="gray">Loket kinderopvang wint Gouden Kinderschoen</h4>
+                    <p>Het Leuvense digitale loket kinderopvang werd genomineerd voor de gouden kinderschoen van de VVSG (de belangenbehartiger van de Vlaamse Steden en Gemeenten) binnen de categorie "beleid" konden we, uit handen van minister van Welzijn Jo Vandeurzen, de schoen in ontvangst nemen...</p>
+                </div>
+            </a>
 
-            <!--Insert Client Logos Below-->
-            <div class="col-sm-3">
-                <a href="#"><img src="img/client_A.gif" alt="Title"></a>
-            </div>
+            <a href="news-inspiratiedag-kinderopvang.php">
+                <div class="news-block col-md-12">
+                    <h4 class="gray">Inspiratiedag kinderopvang</h4>
+                    <p>Tactics bvba was aanwezig als hoofdpartner op de inspiratiedag kinderopvang georganiseerd door de VVSG.</p>
+                </div>
+            </a>
 
-            <div class="col-sm-3">
-                <a href="#"><img src="img/client_H.gif" alt="Title"></a>
-            </div>
-
-            <div class="col-sm-3">
-                <a href="#"><img src="img/client_P.gif" alt="Title"></a>
-            </div>
-
-            <div class="col-sm-3">
-                <a href="#"><img src="img/client_L.gif" alt="Title"></a>
-            </div>
+            <a href="news-kinderopvangbxl-live.php">
+                <div class="news-block col-md-12 margin-20">
+                    <h4 class="gray">Kinderopvanginbrussel.be gaat live</h4>
+                    <p>
+                        Vandaag gaat het lokaal loket officieel online. Via een zoekfunctie op  www.kinderopvanginbrussel.be kunnen ouders op zoek gaan naar Nederlandstalige opvang in Brussel.
+                        Op die manier wordt de zoektocht van ouders naar kinderopvang vereenvoudigd...
+                    </p>
+                </div>
+            </a>
 
         </div>
-    </div>
-</section>
-
-<!--Message-->
-<section id="message">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 text-center">
-                <h4 class="gray">Nieuws</h4>
-                <p>Onze nieuwe website staat online!</p>
-            </div>
-        </div>
-    </div>
 </section>
 
 <!--Bottom Section-->
-    <?php
-        include('footer.php');
-    ?>
+<?php
+include('footer.php');
+?>
 
 
 <!-- Javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-    <?php
-        include('scripts.php');
-    ?>
+<?php
+include('scripts.php');
+?>
 <!--BxSlider - Animation options (horizontal, vertical, or fade) For full list of options check out www.bxslider.com -->
 <script>
     $(document).ready(function(){
@@ -256,6 +165,26 @@
             adaptiveHeight: false,
             autoControls: false
         });
+
+        $('.home-box.first').hover(
+            function() {
+                $('.title-orange').css('background-image', "url('img/arrow-orange.hover.jpg')");
+                $('.title-orange').css('transition', "all 0.5s ease-in-out");
+                $('.title-orange').css('-moz-transition', "all 0.5s ease-in-out");
+                $('.title-orange').css('-webkit-transition', "all 0.5s ease-in-out");
+            },
+            function() {
+                console.log("out");
+                $('.title-orange').css('background-image', "url('img/arrow-orange.png')");
+                $('.title-orange').css('transition', "none");
+                $('.title-orange').css('-moz-transition', "none");
+                $('.title-orange').css('-webkit-transition', "none");
+            }
+        );
+
+        $('.home-box').on('click', function() {
+            window.location = $(this).data('url');
+        })
     });
 </script>
 

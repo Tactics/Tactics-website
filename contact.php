@@ -5,6 +5,9 @@
         $PageTitle="Tactics bvba | Contact";
         include('header.php');
     ?>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+    <script src="js/maps.js"></script>
+    <link rel="stylesheet" href="css/maps.css">
 </head>
 <body class="contact">
     <?php
@@ -28,7 +31,7 @@
     <div class="container">
       
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <?php
           if(isset($_GET['e']))
           {
@@ -45,26 +48,15 @@
             <input type="text" class="col-xs-12" name="contact_subject" placeholder="Onderwerp">
             <textarea class="col-xs-12" name="contact_message" placeholder="Bericht"></textarea>
             <input type="hidden" name="save" value="contact">
-            <p><button class="btn-main" type="submit">Send Message</button></p>
+            <p><button class="btn-main right" type="submit">Send Message</button></p>
           </form>
         </div><!--End Span8-->
-        
-        <div class="col-md-4">
-          <p class="lead">Bedankt voor uw bezoek<p>
-    				<p class="gray">Bedankt voor uw bezoek aan onze website. Voor vragen of opmerkingen kan u steeds het contact formulier invullen.</p>
-        </div>
-        
       </div><!--End Row-->   
     </div>
-  </section> 
-   
+  </section>
 
-  
   <!--Map Section-->
     <section id="map">
-    
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2494.415116080103!2d4.3966596!3d51.30348665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4099c48e7c675%3A0x89436e7fd15d0ff9!2sKerkstraat+115!5e0!3m2!1snl!2sbe!4v1392993420879"></iframe>
-      
     </section>
 
 <!--Bottom Section-->
