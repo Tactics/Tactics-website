@@ -109,6 +109,7 @@ a:hover {
 }
 
 .right{float:right;}
+.left{float:left;}
 iframe {
   background: none;
   border: none;
@@ -1275,3 +1276,18 @@ ul.portfolio li {
 
 }   
 
+.news{
+    max-height: 600px;
+    overflow: hidden;
+    border-left:1px solid #df8505;
+    font-size: 0.85em;
+}
+.news a {
+    font-weight:normal;
+}
+.news-block{padding:10px 20px;}
+.news-block:hover{
+    background-color:#ebebeb;
+    cursor:pointer;
+}
+.news h4 {font-size:20px;line-height: 20px;}
