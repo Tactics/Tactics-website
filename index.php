@@ -28,7 +28,7 @@ include('menu.php');
         <div class="row">
 
             <!--Section 1-->
-            <div class="col-md-4 text-center home-box" data-url="webapplicaties.php">
+            <div class="col-md-4 text-center home-box first" data-url="webapplicaties.php">
                 <i class="fa fa-desktop fa-4x"></i>
                 <h3>Applicaties</h3>
                 <p>
@@ -165,6 +165,22 @@ include('scripts.php');
             adaptiveHeight: false,
             autoControls: false
         });
+
+        $('.home-box.first').hover(
+            function() {
+                $('.title-orange').css('background-image', "url('img/arrow-orange.hover.jpg')");
+                $('.title-orange').css('transition', "all 0.5s ease-in-out");
+                $('.title-orange').css('-moz-transition', "all 0.5s ease-in-out");
+                $('.title-orange').css('-webkit-transition', "all 0.5s ease-in-out");
+            },
+            function() {
+                console.log("out");
+                $('.title-orange').css('background-image', "url('img/arrow-orange.png')");
+                $('.title-orange').css('transition', "none");
+                $('.title-orange').css('-moz-transition', "none");
+                $('.title-orange').css('-webkit-transition', "none"); 
+            }
+        );
 
         $('.home-box').on('click', function() {
             window.location = $(this).data('url');
