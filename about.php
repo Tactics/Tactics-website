@@ -148,16 +148,7 @@
             </span>
           </a>
         </div>
-
-        <!--Team Member-->
-        <div class="col-sm-2 text-center team-member">
-          <a>
-            <span class="info">
-              <span><strong>Jochen Janssens</strong><br /><em>Web Developer</em></span>
-            </span>
-          </a>
-        </div>
-
+        
         <!--Team Member-->
         <div class="col-sm-2 text-center team-member">
           <a>
