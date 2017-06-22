@@ -185,6 +185,33 @@
             </a>
         </div>
 
+        <!--Team Member-->
+        <div class="col-sm-2 text-center team-member">
+          <a>
+        <span class="info">
+            <span><strong>Michiel Staes</strong><br /><em>Web Developer</em></span>
+        </span>
+          </a>
+        </div>
+
+        <!--Team Member-->
+        <div class="col-sm-2 text-center team-member">
+          <a>
+        <span class="info">
+            <span><strong>Gijs Paulussen</strong><br /><em>Web Developer</em></span>
+        </span>
+          </a>
+        </div>
+
+        <!--Team Member-->
+        <div class="col-sm-2 text-center team-member">
+          <a>
+        <span class="info">
+            <span><strong>Johnny Ressen</strong><br /><em>Web Developer</em></span>
+        </span>
+          </a>
+        </div>
+
       </div>
     </div>
   </section>
