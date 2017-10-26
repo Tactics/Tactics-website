@@ -212,6 +212,15 @@
           </a>
         </div>
 
+        <!--Team Member-->
+        <div class="col-sm-2 text-center team-member">
+        <a>
+          <span class="info">
+            <span><strong>Isaak De Backer</strong><br /><em>Web Developer</em></span>
+          </span>
+        </a>
+        </div>
+
       </div>
     </div>
   </section>
