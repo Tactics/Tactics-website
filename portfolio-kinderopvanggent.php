@@ -48,7 +48,7 @@ include('menu.php');
 
         <div class="col-md-10">
             <h2 class="dark-gray">Links</h2>
-              <p><a class="content-link" href="http://tinkelbel.gent.be/" target="_blank">Tinkelbel.gent.be</a></p>
+              <p><a class="content-link" href="https://kinderopvang.stad.gent/" target="_blank">Kinderopvang Gent</a></p>
               <p><a class="content-link" href="files/persbericht_kop.pdf" target="_blank">Persbericht</a></p>
           </div>
         </div>
