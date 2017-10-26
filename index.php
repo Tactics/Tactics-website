@@ -114,29 +114,10 @@ include('menu.php');
             <h2 class="gray">Heet van de naald</h2>
             <div style="clear:both;"></div>
 
-            <a href="news-kinderopvang-goudenkinderschoen.php">
-                <div class="news-block col-md-12">
-                    <h4 class="gray">Loket kinderopvang wint Gouden Kinderschoen</h4>
-                    <p>Het Leuvense digitale loket kinderopvang werd genomineerd voor de gouden kinderschoen van de VVSG (de belangenbehartiger van de Vlaamse Steden en Gemeenten) binnen de categorie "beleid" konden we, uit handen van minister van Welzijn Jo Vandeurzen, de schoen in ontvangst nemen...</p>
-                </div>
-            </a>
-
-            <a href="news-inspiratiedag-kinderopvang.php">
-                <div class="news-block col-md-12">
-                    <h4 class="gray">Inspiratiedag kinderopvang</h4>
-                    <p>Tactics bvba was aanwezig als hoofdpartner op de inspiratiedag kinderopvang georganiseerd door de VVSG.</p>
-                </div>
-            </a>
-
-            <a href="news-kinderopvangbxl-live.php">
-                <div class="news-block col-md-12 margin-20">
-                    <h4 class="gray">Kinderopvanginbrussel.be gaat live</h4>
-                    <p>
-                        Vandaag gaat het lokaal loket officieel online. Via een zoekfunctie op  www.kinderopvanginbrussel.be kunnen ouders op zoek gaan naar Nederlandstalige opvang in Brussel.
-                        Op die manier wordt de zoektocht van ouders naar kinderopvang vereenvoudigd...
-                    </p>
-                </div>
-            </a>
+            <div class="news-block col-md-12">
+                <h4 class="gray">Binnenkort verhuizen we</h4>
+                <p>Omdat Tactics alsmaar groter wordt zullen we in 2018 verhuizen naar een nieuwe locatie.</p>
+            </div>
 
         </div>
 </section>
