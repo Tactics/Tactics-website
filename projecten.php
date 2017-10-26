@@ -69,6 +69,21 @@ include('menu.php');
 
             <li>
                 <div class="thumbs">
+                    <img src="img/Molenketjes_front.jpg" class="img-responsive" alt="kinderopvang_molenbeek">
+                    <a href="portfolio-kinderopvangmolenbeek.php">
+                    <span class="title">
+                        <span><i class="fa fa-link fa-2x"></i></span>
+                    </span>
+                    </a>
+                </div>
+
+                <div class="project-title margin-30">
+                    <h5>Kinderopvang De Molenketjes</h5>
+                </div>
+            </li>
+
+            <li>
+                <div class="thumbs">
                     <img src="img/Aalst_front.jpg" class="img-responsive" alt="kinderopvang_aalst">
                     <a href="portfolio-kinderopvangaalst.php">
                       <span class="title">
