@@ -93,7 +93,7 @@ include('menu.php');
                 </div>
 
                 <div class="project-title margin-30">
-                    <h5>Kinderopvang in Aalst</h5>
+                    <h5>Kinderopvang stad Aalst</h5>
                 </div>
             </li>
             <li>
@@ -116,7 +116,7 @@ include('menu.php');
                 </div>
 
                 <div class="project-title margin-30">
-                    <h5>Kinderopvang in Brussel</h5>
+                    <h5>Kinderopvang stad Brussel</h5>
                 </div>
             </li>
             <li>
