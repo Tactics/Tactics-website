@@ -54,7 +54,13 @@ include('menu.php');
         <div class="col-md-10">
           <div class="col-md-10">
             <h2 class="dark-gray">Links</h2>
-            <p>Nog geen publieke link beschikbaar.</p>
+              <ul>
+                  <li>
+                      <a class="content-link" href="https://kinderopvang.oostende.be/" target="_blank">
+                          Kinderopvang oostende
+                      </a>
+                  </li>
+              </ul>
           </div>
         </div>
       </div>
