@@ -51,6 +51,22 @@ include('menu.php');
                     <h5>Mijn kinderopvang Antwerpen</h5>
                 </div>
             </li>
+
+            <li>
+                <div class="thumbs">
+                    <img src="img/kinderopvanggent.gif" class="img-responsive" alt="kinderopvang_gent">
+                    <a href="portfolio-kinderopvanggent.php">
+                    <span class="title">
+                        <span><i class="fa fa-link fa-2x"></i></span>
+                    </span>
+                    </a>
+                </div>
+
+                <div class="project-title margin-30">
+                    <h5>Kinderopvang stad Gent </h5>
+                </div>
+            </li>
+
             <li>
                 <div class="thumbs">
                     <img src="img/kinderopvangaalst.jpg" class="img-responsive" alt="kinderopvang_aalst">
@@ -142,20 +158,6 @@ include('menu.php');
 
                 <div class="project-title margin-30">
                     <h5>Kinderopvang stad Leuven </h5>
-                </div>
-            </li>
-            <li>
-                <div class="thumbs">
-                    <img src="img/kinderopvanggent.gif" class="img-responsive" alt="kinderopvang_gent">
-                    <a href="portfolio-kinderopvanggent.php">
-                    <span class="title">
-                        <span><i class="fa fa-link fa-2x"></i></span>
-                    </span>
-                    </a>
-                </div>
-
-                <div class="project-title margin-30">
-                    <h5>Kinderopvang stad Gent </h5>
                 </div>
             </li>
             <li>
