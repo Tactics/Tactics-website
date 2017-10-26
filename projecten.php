@@ -54,7 +54,7 @@ include('menu.php');
 
             <li>
                 <div class="thumbs">
-                    <img src="img/kinderopvanggent.gif" class="img-responsive" alt="kinderopvang_gent">
+                    <img src="img/Gent_front.jpg" class="img-responsive" alt="kinderopvang_gent">
                     <a href="portfolio-kinderopvanggent.php">
                     <span class="title">
                         <span><i class="fa fa-link fa-2x"></i></span>
@@ -69,7 +69,7 @@ include('menu.php');
 
             <li>
                 <div class="thumbs">
-                    <img src="img/kinderopvangaalst.jpg" class="img-responsive" alt="kinderopvang_aalst">
+                    <img src="img/Aalst_front.jpg" class="img-responsive" alt="kinderopvang_aalst">
                     <a href="portfolio-kinderopvangaalst.php">
                       <span class="title">
                           <span><i class="fa fa-link fa-2x"></i></span>
@@ -106,7 +106,7 @@ include('menu.php');
             </li>
             <li>
                 <div class="thumbs">
-                    <img src="img/kinderopvangoostende.gif" class="img-responsive" alt="kinderopvang_oostende">
+                    <img src="img/Oostende_front.jpg" class="img-responsive" alt="kinderopvang_oostende">
                     <a href="portfolio-kinderopvangoostende.php">
                     <span class="title">
                         <span><i class="fa fa-link fa-2x"></i></span>
