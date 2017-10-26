@@ -14,7 +14,7 @@ include('menu.php');
     <div class="container">
       <div class="row">
         <div class="col-md-12 title-orange">
-          <h2>Kinderopvang stad Antwerpen</h2>
+          <h2>Mijn kinderopvang Antwerpen</h2>
         </div>
       </div>
     </div>
@@ -28,17 +28,8 @@ include('menu.php');
         
         <div class="col-md-12">
           <p class="white">
-              Voor de stad Antwerpen ontwikkelden we in opdracht van Digipolis Antwerpen een centraal aanmeldingsregister
-              voor alle opvangvragen voor buitenschoolse EN voorschoolse kinderopvang.<br/>
-              <br/>
-              Een aantal modules die werden voorzien ter ondersteuning van deze diensten :
-            <ul class="white">
-                <li>Facturatie</li>
-                <li>Aanwezighedenregistratie</li>
-                <li>Facturatie</li>
-                <li>Webservices</li>
-                <li>Communicatie</li>
-            </ul>
+              Voor de stad Antwerpen ontwikkelden we in opdracht van Digipolis Antwerpen een portaal voor ouders dat gekoppeld wordt aan hun A-profiel. Via deze website kunnen ouders de aanvragen en inschrijvingen voor de voorschoolse kinderopvang opvolgen.
+              Hiernaast kunnen ouders ook wijzigingen aan het opvangplan aanvragen, ziekte melden of zelfs gastopvang aanvragen.
           </p>
         </div>
       </div>
@@ -53,10 +44,17 @@ include('menu.php');
 
         <div class="col-md-10">
             <h2 class="dark-gray">Links</h2>
-            <p>Deze applicatie bestaat uit verschillende onderdelen:</p>
             <ul>
-              <li><a class="content-link" href="http://mijndossierkinderopvang.antwerpen.be/" target="_blank">Voorschoolse kinderopvang</a></li>
-              <li><a class="content-link" href="http://bko.antwerpen.be/" target="_blank">Buitenschoolse kinderopvang</a></li>
+              <li>
+                  <a class="content-link" href="http://www.mijnkinderopvang.be" target="_blank">
+                      Mijn kinderopvang
+                  </a>
+              </li>
+              <li>
+                  <a class="content-link" href="https://www.antwerpen.be/nl/overzicht/jobs/jouw-match-met-de-organisatie/mijn-kinderopvang-wordt-een-onestopshop-voor-ouders-en-medewerkers" target="_blank">
+                      Interview met Wini Condic-Begov, Consulent Communicatie bij AG Kinderopvang Antwerpen
+                  </a>
+              </li>
             </ul>
           </div>
         </div>
