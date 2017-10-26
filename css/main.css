@@ -967,7 +967,9 @@ textarea {
   position: relative;
   margin-bottom: 20px;
 }
-
+.thumbs img {
+  height: 230px;
+}
 .thumbs a {
 	background: none no-repeat scroll center center rgba(223, 133, 5, 0.8);
   bottom: -300px;
