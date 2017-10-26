@@ -50,9 +50,9 @@ include('menu.php');
     <div class="container">
         <div class="row">
             <div class="bxslider">
-                <div><img src="img/Aalst_1.jpg" title="Aalst opvang 1"></div>
-                <div><img src="img/Aalst_2.jpg" title="Aalst opvang 2"></div>
-                <div><img src="img/Aalst_3.jpg" title="Aalst aanmelden"></div>
+                <div><img src="img/Aalst_1.jpg"></div>
+                <div><img src="img/Aalst_2.jpg"></div>
+                <div><img src="img/Aalst_3.jpg"></div>
             </div>
         </div>
         <div class="row">

@@ -51,9 +51,9 @@ include('menu.php');
     <div class="container">
         <div class="row">
             <div class="bxslider">
-                <div><img src="img/Gent_1.jpg" title="Opvanglocaties zoeken"></div>
-                <div><img src="img/Gent_2.jpg" title="Opvanglocatie detail"></div>
-                <div><img src="img/Gent_3.jpg" title="Startersgids"></div>
+                <div><img src="img/Gent_1.jpg"></div>
+                <div><img src="img/Gent_2.jpg"></div>
+                <div><img src="img/Gent_3.jpg"></div>
             </div>
         </div>
         <div class="row">
