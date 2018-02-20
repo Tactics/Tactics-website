@@ -1,5 +1,5 @@
 function initialize() {
-    var tacticsLocation = new google.maps.LatLng(51.303311,4.395891);
+    var tacticsLocation = new google.maps.LatLng(51.328638,4.415801);
     var mapOptions = {
         center: tacticsLocation,
         zoom: 10,
@@ -38,10 +38,10 @@ function initialize() {
                 '<div class="place-card place-card-large"> ' +
                 '<div class="place-desc-large"> ' +
                 '<div class="place-name"> Tactics bvba </div>' +
-                '<div class="address"> Kerkstraat 115, 2940 Hoevenen </div>' +
+                '<div class="address"> Starrenhoflaan 14, 2950 Kapellen </div>' +
                 '</div>' +
                 '<div class="navigate"> <div class="navigate"> ' +
-                '<a class="navigate-link" href="https://www.google.com/maps/dir//Kerkstraat+115,+2940+Stabroek,+Belgium/@51.3034768,4.3920049,16z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x47c4099c48e7c675:0x89436e7fd15d0ff9!2m2!1d4.3966183!2d51.3034769!3e0?hl=en-US" target="_blank"> ' +
+                '<a class="navigate-link" href="https://www.google.com/maps/dir//Starrenhoflaan+14,+2950+Kapellen,+Belgium/@51.328638,4.415801,16z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x47c4099c48e7c675:0x89436e7fd15d0ff9!2m2!1d4.3966183!2d51.3034769!3e0?hl=en-US" target="_blank"> ' +
                 '<div class="icon navigate-icon">' +
                 '</div><div class="navigate-text"> Directions </div></a> </div></div>');
         }
