@@ -135,15 +135,6 @@
         <div class="col-sm-2 text-center team-member">
           <a>
             <span class="info">
-              <span><strong>Bart Ruysseveldt</strong><br /><em>Web Developer</em></span>
-            </span>
-          </a>
-        </div>
-
-        <!--Team Member-->
-        <div class="col-sm-2 text-center team-member">
-          <a>
-            <span class="info">
               <span><strong>Glenn Van Loock</strong><br /><em>Web Developer</em></span>
             </span>
           </a>
