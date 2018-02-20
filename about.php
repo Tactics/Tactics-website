@@ -212,6 +212,24 @@
         </a>
         </div>
 
+        <!--Team Member-->
+        <div class="col-sm-2 text-center team-member">
+          <a>
+            <span class="info">
+                <span><strong>Kathleen Ribbens</strong><br /><em>HR</em></span>
+            </span>
+          </a>
+        </div>
+
+        <!--Team Member-->
+        <div class="col-sm-2 text-center team-member">
+            <a>
+                <span class="info">
+                    <span><strong>Tom Hendrickx</strong><br /></span>
+                </span>
+            </a>
+        </div>
+
       </div>
     </div>
   </section>
