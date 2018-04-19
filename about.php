@@ -126,7 +126,7 @@
         <div class="col-sm-2 text-center team-member">
           <a>
             <span class="info">
-              <span><strong>Jeroen Meert</strong><br /><em>Web Developer</em></span>
+              <span><strong>Jeroen Meert</strong><br /><em>Team Leader</em></span>
             </span>
           </a>
         </div>
