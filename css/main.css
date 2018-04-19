@@ -13,6 +13,14 @@
    Global Styles styles
    ========================================================================== */
 
+@font-face {
+  font-family: "DrWeb Medium";
+  src: url("../fonts/drweb-medium.eot");
+  src:
+          url("../fonts/drweb-medium.woff") format("woff"),
+          url("../fonts/drweb-medium.eot") format("opentype");
+}
+
 body {
     background-color: #FFFFFF;
     color: #333333;
@@ -20,20 +28,18 @@ body {
     font-size: 14px;
     line-height: 1.5;
 }
-h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Open Sans',sans-serif;
+h1, h2, h3, h4, h5, h6{
+    font-family: 'DrWeb Medium',sans-serif;
 }
 h1 {
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -3px;
   color: #ffffff;
 }
 
 h2 {
   font-size: 32px;
   line-height: 34px;
-  letter-spacing: -2px;
   font-weight: 300;
   color: #ffffff;
 }
@@ -41,14 +47,12 @@ h2 {
 h3 {
   font-size: 29px;
   line-height: 35px;
-  letter-spacing: -2px;
   color: #ffffff;
 }
 
 h4 {
   font-size: 32px;
   line-height: 35px;
-  letter-spacing: -0.7px;
   font-weight: 300;
   color: #ffffff;
 }
@@ -69,7 +73,7 @@ a:hover {
 }
 
 .btn-main {
-  background: #df8505 repeat scroll 0 0;
+  background: #FF323B repeat scroll 0 0;
   border: none;
   font-weight: 400;
   border-radius: 0px;
@@ -82,7 +86,7 @@ a:hover {
 }
 
 .btn-main:hover {
-	background: #ec971f repeat scroll 0 0;
+	background: #B21119 repeat scroll 0 0;
 	color: #FFFFFF;
 	text-decoration: none;
 	transition: all 0.35s ease-in-out;
@@ -100,11 +104,11 @@ a:hover {
 }
 
 ::selection {
-	background: #df8505; /* Safari */
+	background: #FF323B; /* Safari */
 	color: #FFFFFF;
 }
 ::-moz-selection {
-	background: #df8505; /* Firefox */
+	background: #FF323B; /* Firefox */
 	color: #FFFFFF;
 }
 
@@ -183,7 +187,7 @@ iframe {
 }
 
 .orange {
-  color: #df8505;
+  color: #FF323B;
 }
 
 .white {
@@ -212,7 +216,7 @@ iframe {
   -moz-box-shadow:    1px 1px 10px rgba(50, 50, 50, 0.5);
   box-shadow:         1px 1px 10px rgba(50, 50, 50, 0.5);
   border-bottom: 1px solid black;
-  border-top: 5px solid #df8505;
+  border-top: 5px solid #FF323B;
   line-height: 1.42857;
 }
 
@@ -343,7 +347,7 @@ iframe {
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
 .dropdown-submenu:focus > a {
-  color: #df8505;
+  color: #FF323B;
   background-color: transparent;
   background-image: -moz-linear-gradient(top, #26292B, #26292B);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#26292B), to(#26292B));
@@ -529,7 +533,7 @@ li.sign-up:hover {
    ========================================================================== */
 
 #home-content {
-  background-color: #df8505;
+  background-color: #401693;
   /*background-image: url("../img/home-box-bg.jpg") ;*/
   background-size: 100%;
 }
@@ -543,7 +547,7 @@ li.sign-up:hover {
 }
 
 .home-box:hover {
-  background: url("../img/arrow.png") no-repeat scroll center bottom #ec971f;
+  background: url("../img/arrow.png") no-repeat scroll center bottom #1B0546;
   transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -641,13 +645,18 @@ li.sign-up:hover {
   padding-bottom: 30px;
 }
 
+.title-purple {
+  background: url("../img/arrow-purple.png") no-repeat scroll left 15px bottom #3E4549;
+  padding-bottom: 30px;
+}
+
 .title-white {
   background: url("../img/arrow.png") no-repeat scroll left 15px bottom #3E4549;
   padding-bottom: 30px;  
 }
 
 #orange-container {
-  background: #df8505;
+  background: #401693;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -682,7 +691,7 @@ a.container-link:hover {
 }
 
 .team-member a {
-  background: none no-repeat scroll center center rgba(223, 133, 5, 0.8);
+  background: none no-repeat scroll center center #401693;
   border-radius: 50% 50% 50% 50%;
   bottom: 0;
   color: black;
@@ -742,12 +751,12 @@ a.container-link:hover {
 }
 
 a.content-link {
-  color: #df8505;
+  color: #FF323B;
   text-decoration: underline;
 }
 
 a.content-link:hover {
-  color: #ec971f;
+  color: #B21119;
   text-decoration: none;
 }
 
@@ -963,7 +972,7 @@ textarea {
   height: 230px;
 }
 .thumbs a {
-	background: none no-repeat scroll center center rgba(223, 133, 5, 0.8);
+	background: none no-repeat scroll center center rgba(64, 22, 147, 0.8);
   bottom: -300px;
   color: white;
   left: 0;
@@ -1096,7 +1105,7 @@ ul.social-icons li a {
 }
 
 ul.social-icons li a:hover {
-	color: #df8505;
+	color: #FF323B;
 	bottom: 12px;
 	text-decoration: none;
 	transition: all 0.35s ease-in-out;
@@ -1273,7 +1282,7 @@ ul.portfolio li {
 .news{
     max-height: 600px;
     overflow: hidden;
-    border-left:1px solid #df8505;
+    border-left:1px solid #FF323B;
     font-size: 0.85em;
 }
 .news a {
@@ -1285,3 +1294,5 @@ ul.portfolio li {
     cursor:pointer;
 }
 .news h4 {font-size:20px;line-height: 20px;}
+
+.logo{width:300px;}

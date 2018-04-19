@@ -15,7 +15,7 @@ include('menu.php');
 <section id="page-title">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 title-orange">
+            <div class="col-md-12 title-purple">
                 <h2>Welkom bij Tactics</h2>
             </div>
         </div>
@@ -149,14 +149,14 @@ include('scripts.php');
 
         $('.home-box.first').hover(
             function() {
-                $('.title-orange').css('background-image', "url('img/arrow-orange.hover.jpg')");
+                $('.title-orange').css('background-image', "url('img/arrow-purple-hover.png')");
                 $('.title-orange').css('transition', "all 0.5s ease-in-out");
                 $('.title-orange').css('-moz-transition', "all 0.5s ease-in-out");
                 $('.title-orange').css('-webkit-transition', "all 0.5s ease-in-out");
             },
             function() {
                 console.log("out");
-                $('.title-orange').css('background-image', "url('img/arrow-orange.png')");
+                $('.title-orange').css('background-image', "url('img/arrow-purple.png')");
                 $('.title-orange').css('transition', "none");
                 $('.title-orange').css('-moz-transition', "none");
                 $('.title-orange').css('-webkit-transition', "none");

@@ -16,7 +16,7 @@
   <section id="page-title">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 title-orange">
+        <div class="col-md-12 title-purple">
           <h2>Wie zijn wij </h2>
         </div>
       </div>
