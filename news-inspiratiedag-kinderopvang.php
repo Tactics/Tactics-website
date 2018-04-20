@@ -16,7 +16,7 @@
 <section id="page-title">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 title-white">
+            <div class="col-md-12 title-red">
                 <h2>Inspiratiedag kinderopvang</h2>
                 <p class="orange">
                     Tactics bvba was aanwezig als hoofdpartner op de inspiratiedag kinderopvang georganiseerd door de VVSG.

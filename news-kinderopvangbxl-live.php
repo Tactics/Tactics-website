@@ -16,7 +16,7 @@
 <section id="page-title">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 title-white">
+            <div class="col-md-12 title-red">
                 <h2>Website kinderopvanginbrussel.be gaat live</h2>
                 <p class="orange">
                     &quot;In juni 2013 startte het bedrijf Tactics, in overleg met het werkveld , met de ontwikkeling van het online systeem dat vandaag voor het grote publiek toegankelijk wordt gemaakt.&quot;

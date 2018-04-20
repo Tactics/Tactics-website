@@ -16,7 +16,7 @@
 <section id="page-title">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 title-white">
+            <div class="col-md-12 title-red">
                 <h2>Verenigingendatabank</h2>
                 <p class="orange">
                     Softwareplatform voor de stedelijke vzw Antwerpen Sportstad om de opdrachten van de Stad Antwerpen te beheren.

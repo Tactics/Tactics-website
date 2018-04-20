@@ -50,7 +50,7 @@
   <section id="page-title">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 title-white">
+        <div class="col-md-12 title-red">
           <h2>Applicaties</h2>
         </div>
       </div>

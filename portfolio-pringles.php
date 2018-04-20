@@ -15,7 +15,7 @@ include('menu.php');
   <section id="page-title">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 title-orange">
+        <div class="col-md-12 title-red">
           <h2>Pringles automasatie</h2>
         </div>
       </div>

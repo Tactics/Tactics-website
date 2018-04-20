@@ -16,7 +16,7 @@
 <section id="page-title">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 title-white">
+            <div class="col-md-12 title-red">
                 <h2>Loket kinderopvang wint Gouden Kinderschoen 2015</h2>
             </div>
         </div>

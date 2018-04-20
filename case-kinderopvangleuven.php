@@ -16,7 +16,7 @@
 <section id="page-title">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 title-white">
+            <div class="col-md-12 title-red">
                 <h2>Kinderdagverblijven Leuven</h2>
                 <p class="orange">
                     Aanmeldingsregister voor het Centraal Loket Kinderopvang om aanvragen te beheren voor buiten- en voorschoolse kinderopvang, en de opvang van zieke kinderen.                </p>
