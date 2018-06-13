@@ -1,0 +1,258 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+@include foundation-global-styles;
+// @include foundation-grid;
+// @include foundation-flex-grid;
+@include foundation-xy-grid-classes;
+@include foundation-typography;
+//@include foundation-button;
+//@include foundation-forms;
+// @include foundation-range-input;
+/* @include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-responsive-embed;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar; */
+@include foundation-visibility-classes;
+// @include foundation-float-classes;
+@include foundation-flex-classes;
+
+// @include foundation-prototype-classes;
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3593270, 2018-06-07T04:54:00-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: NeuzeitSLTStd-Book by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neuzeit-s/neuzeits-book/
+ * 
+ * Webfont: NeuzeitSLTStd-BookHeavy by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neuzeit-s/neuzeits-bookheavy/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3593270
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 1990, 2001, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 2001, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/36d436");
+
+@font-face {font-family: 'NeuzeitSLTStd-Book';src: url('../etc/webfonts/36D436_0_0.eot');src: url('../etc/webfonts/36D436_0_0.eot?#iefix') format('embedded-opentype'),url('../etc/webfonts/36D436_0_0.woff2') format('woff2'),url('../etc/webfonts/36D436_0_0.woff') format('woff'),url('../etc/webfonts/36D436_0_0.ttf') format('truetype'),url('../etc/webfonts/36D436_0_0.svg#wf') format('svg');}
+@font-face {font-family: 'NeuzeitSLTStd-BookHeavy';src: url('../etc/webfonts/36D436_1_0.eot');src: url('../etc/webfonts/36D436_1_0.eot?#iefix') format('embedded-opentype'),url('../etc/webfonts/36D436_1_0.woff2') format('woff2'),url('../etc/webfonts/36D436_1_0.woff') format('woff'),url('../etc/webfonts/36D436_1_0.ttf') format('truetype'),url('../etc/webfonts/36D436_1_0.svg#wf') format('svg');}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+
+$red: #ff353d;
+
+.grid-container {
+	max-width: 62.5rem;
+	@include breakpoint(medium) { max-width: 60rem; }
+	@include breakpoint(xxlarge) { max-width: 80rem; }
+	@include breakpoint(xxxlarge) { max-width: 100rem; }
+}
+
+html {
+	background-image: url(../etc/tactics-bg-mobile.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	@include breakpoint(medium) {
+		background-image: url(../etc/tactics-bg.jpg);
+		background-size:cover;
+		background-position: left;
+	}
+	@include breakpoint(xxxlarge) {
+		background-image: url(../etc/tactics-bg-large.jpg);
+	}
+}
+body,footer {
+	background-color: transparent;
+}
+html,body,.grid-container,.fullh {
+	height: 100%;
+	width: 100%;
+	color:white;
+	position: relative;
+}
+
+
+.fullh > .cell {
+	text-align: center;
+	@include breakpoint(large) {
+		text-align: left;
+	}
+
+}
+.logo {
+	
+	@include breakpoint(medium) {
+		margin-left: -20px;
+	}
+}
+
+
+
+.title {
+	font-family: 'NeuzeitSLTStd-BookHeavy';
+	letter-spacing: 1px;
+}
+
+a {
+	color: white;
+
+}
+
+
+.button {
+	background-color:$red;
+	padding: .6rem 1rem;
+	border-radius: 3px;
+	color:white;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+	display: inline-block;
+	@extend .title;
+	@include transition(background-color .3s ease-in-out);
+	&:hover,&:active,&:focus {
+		color:white;
+		background-color: #e5272d;
+	}
+}
+
+.wrapper {
+	@extend .align-center;
+	@include breakpoint(xlarge) {
+		-ms-flex-pack: left;
+		justify-content: left;
+	}
+	> .cell {
+		width: auto;
+		@include breakpoint(large) { width: 100%; }
+	}
+}
+
+
+p.large {
+	font-size: 18px;
+	@include breakpoint(medium) {
+		font-size: 20px;
+	}
+	@include breakpoint(xxlarge) {
+		font-size: 24px;
+	}
+}
+
+.inner-wrapper {
+	@extend .align-center;
+	@include breakpoint(xlarge) {
+		-ms-flex-pack: left;
+		justify-content: left;
+	}
+}
+
+
+.icons {
+	text-align: left;
+	width: 52% !important;
+	-ms-flex-align: center;
+	align-items: center;
+	@include breakpoint(large) {
+		-ms-flex-pack: left;
+		justify-content: left;	
+		width: 50% !important;
+	}
+	svg {
+		float: left;
+		margin-top: .3rem;
+	}
+	p {
+		float: left;
+		margin-bottom: .5rem;
+		margin-left: .6rem;
+		@extend .title;
+		font-size: 12px;
+		@include breakpoint(medium) { font-size: 12px; }
+		@include breakpoint(large) { font-size: 14px; }
+		@include breakpoint(xlarge) { font-size: 16px; }
+	}
+	&:nth-of-type(2) {
+		svg:nth-of-type(1) {
+			margin-top: 0.4rem;
+		}
+		svg:nth-of-type(2) {
+			margin-top: 0.2rem;
+		}
+	}
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+	position: fixed;
+	color:white;
+	bottom: 1rem;
+	right: 2rem;
+	@extend .title;
+	font-size: 12px;
+	a {
+		color:$red;
+		@include transition(color .3s ease-in-out);
+		&:hover,&:active,&:focus {
+			color:white;
+		}
+	}
+}
